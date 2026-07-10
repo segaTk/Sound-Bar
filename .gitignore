@@ -1,0 +1,5 @@
+*.wav
+*.exe
+sounds/
+installer_output/
+records/

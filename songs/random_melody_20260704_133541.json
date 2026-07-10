@@ -1,0 +1,803 @@
+{
+  "events": [
+    {
+      "duration": 0.25,
+      "notes": [
+        {
+          "fret": 9,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.225,
+      "time": 0.0
+    },
+    {
+      "duration": 0.5,
+      "notes": [
+        {
+          "fret": 16,
+          "string": 5
+        }
+      ],
+      "sound_duration": 0.45,
+      "time": 0.25
+    },
+    {
+      "duration": 0.25,
+      "notes": [
+        {
+          "fret": 1,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.225,
+      "time": 0.75
+    },
+    {
+      "duration": 0.25,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.225,
+      "time": 1.948615554778371
+    },
+    {
+      "duration": 0.25,
+      "notes": [
+        {
+          "fret": 9,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.225,
+      "time": 2.198615554778371
+    },
+    {
+      "duration": 1.0,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9,
+      "time": 3.1611842689453624
+    },
+    {
+      "duration": 2.0,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 1.8,
+      "time": 4.961393483390566
+    },
+    {
+      "duration": 1.0,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9,
+      "time": 6.961393483390566
+    },
+    {
+      "duration": 0.5,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.45,
+      "time": 8.678339094680268
+    },
+    {
+      "duration": 0.5,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.45,
+      "time": 9.178339094680268
+    },
+    {
+      "duration": 0.25,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.225,
+      "time": 10.269423662335612
+    },
+    {
+      "duration": 0.5,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.45,
+      "time": 10.519423662335612
+    },
+    {
+      "duration": 1.0,
+      "notes": [
+        {
+          "fret": 19,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.9,
+      "time": 11.019423662335612
+    },
+    {
+      "duration": 0.5,
+      "notes": [
+        {
+          "fret": 3,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.45,
+      "time": 12.019423662335612
+    },
+    {
+      "duration": 1.0,
+      "notes": [
+        {
+          "fret": 12,
+          "string": 4
+        }
+      ],
+      "sound_duration": 0.9,
+      "time": 12.519423662335612
+    },
+    {
+      "duration": 0.5,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.45,
+      "time": 13.519423662335612
+    },
+    {
+      "duration": 1.0,
+      "notes": [
+        {
+          "fret": 4,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9,
+      "time": 14.019423662335612
+    },
+    {
+      "duration": 0.25,
+      "notes": [
+        {
+          "fret": 16,
+          "string": 5
+        }
+      ],
+      "sound_duration": 0.225,
+      "time": 15.019423662335612
+    },
+    {
+      "duration": 2.0,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 4
+        }
+      ],
+      "sound_duration": 1.8,
+      "time": 15.679940183879808
+    },
+    {
+      "duration": 0.25,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.225,
+      "time": 17.679940183879808
+    },
+    {
+      "duration": 0.25,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.225,
+      "time": 17.929940183879808
+    },
+    {
+      "duration": 1.0,
+      "notes": [
+        {
+          "fret": 14,
+          "string": 1
+        },
+        {
+          "fret": 7,
+          "string": 4
+        }
+      ],
+      "sound_duration": 0.9,
+      "time": 18.179940183879808
+    },
+    {
+      "duration": 0.25,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.225,
+      "time": 19.179940183879808
+    },
+    {
+      "duration": 0.5,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        },
+        {
+          "fret": 1,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.45,
+      "time": 19.429940183879808
+    },
+    {
+      "duration": 1.0,
+      "notes": [
+        {
+          "fret": 20,
+          "string": 4
+        }
+      ],
+      "sound_duration": 0.9,
+      "time": 19.929940183879808
+    },
+    {
+      "duration": 2.0,
+      "notes": [
+        {
+          "fret": 14,
+          "string": 1
+        }
+      ],
+      "sound_duration": 1.8,
+      "time": 20.929940183879808
+    },
+    {
+      "duration": 0.5,
+      "notes": [
+        {
+          "fret": 9,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.45,
+      "time": 22.929940183879808
+    },
+    {
+      "duration": 0.5,
+      "notes": [
+        {
+          "fret": 3,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.45,
+      "time": 23.429940183879808
+    },
+    {
+      "duration": 0.5,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.45,
+      "time": 23.929940183879808
+    },
+    {
+      "duration": 1.0,
+      "notes": [
+        {
+          "fret": 9,
+          "string": 1
+        },
+        {
+          "fret": 7,
+          "string": 4
+        }
+      ],
+      "sound_duration": 0.9,
+      "time": 24.429940183879808
+    },
+    {
+      "duration": 2.0,
+      "notes": [
+        {
+          "fret": 6,
+          "string": 1
+        }
+      ],
+      "sound_duration": 1.8,
+      "time": 26.42609038221417
+    },
+    {
+      "duration": 0.25,
+      "notes": [
+        {
+          "fret": 16,
+          "string": 4
+        }
+      ],
+      "sound_duration": 0.225,
+      "time": 28.42609038221417
+    },
+    {
+      "duration": 1.0,
+      "notes": [
+        {
+          "fret": 9,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.9,
+      "time": 28.67609038221417
+    },
+    {
+      "duration": 2.0,
+      "notes": [
+        {
+          "fret": 7,
+          "string": 1
+        }
+      ],
+      "sound_duration": 1.8,
+      "time": 29.67609038221417
+    },
+    {
+      "duration": 0.5,
+      "notes": [
+        {
+          "fret": 2,
+          "string": 0
+        },
+        {
+          "fret": 4,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.45,
+      "time": 31.67609038221417
+    },
+    {
+      "duration": 1.0,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9,
+      "time": 32.17609038221417
+    },
+    {
+      "duration": 2.0,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        },
+        {
+          "fret": 1,
+          "string": 1
+        }
+      ],
+      "sound_duration": 1.8,
+      "time": 33.17609038221417
+    },
+    {
+      "duration": 0.5,
+      "notes": [
+        {
+          "fret": 7,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.45,
+      "time": 35.17609038221417
+    },
+    {
+      "duration": 0.25,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.225,
+      "time": 36.25445530703291
+    },
+    {
+      "duration": 1.0,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9,
+      "time": 36.942766367224976
+    },
+    {
+      "duration": 1.0,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9,
+      "time": 37.942766367224976
+    },
+    {
+      "duration": 0.5,
+      "notes": [
+        {
+          "fret": 15,
+          "string": 4
+        },
+        {
+          "fret": 17,
+          "string": 5
+        }
+      ],
+      "sound_duration": 0.45,
+      "time": 38.942766367224976
+    },
+    {
+      "duration": 1.0,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9,
+      "time": 39.442766367224976
+    },
+    {
+      "duration": 0.25,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.225,
+      "time": 40.442766367224976
+    },
+    {
+      "duration": 0.5,
+      "notes": [
+        {
+          "fret": 2,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.45,
+      "time": 40.692766367224976
+    },
+    {
+      "duration": 0.25,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.225,
+      "time": 41.192766367224976
+    },
+    {
+      "duration": 1.0,
+      "notes": [
+        {
+          "fret": 20,
+          "string": 1
+        },
+        {
+          "fret": 13,
+          "string": 4
+        }
+      ],
+      "sound_duration": 0.9,
+      "time": 41.442766367224976
+    },
+    {
+      "duration": 0.5,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.45,
+      "time": 42.442766367224976
+    },
+    {
+      "duration": 0.25,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.225,
+      "time": 42.942766367224976
+    },
+    {
+      "duration": 0.5,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.45,
+      "time": 43.192766367224976
+    },
+    {
+      "duration": 1.0,
+      "notes": [
+        {
+          "fret": 3,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.9,
+      "time": 44.5816118735238
+    },
+    {
+      "duration": 0.25,
+      "notes": [
+        {
+          "fret": 8,
+          "string": 4
+        }
+      ],
+      "sound_duration": 0.225,
+      "time": 45.5816118735238
+    },
+    {
+      "duration": 0.25,
+      "notes": [
+        {
+          "fret": 17,
+          "string": 5
+        }
+      ],
+      "sound_duration": 0.225,
+      "time": 46.6699659175938
+    },
+    {
+      "duration": 0.5,
+      "notes": [
+        {
+          "fret": 8,
+          "string": 4
+        }
+      ],
+      "sound_duration": 0.45,
+      "time": 46.9199659175938
+    },
+    {
+      "duration": 0.5,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.45,
+      "time": 47.4199659175938
+    },
+    {
+      "duration": 0.5,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.45,
+      "time": 47.9199659175938
+    },
+    {
+      "duration": 2.0,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 1.8,
+      "time": 48.4199659175938
+    },
+    {
+      "duration": 0.5,
+      "notes": [
+        {
+          "fret": 8,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.45,
+      "time": 50.4199659175938
+    },
+    {
+      "duration": 1.0,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9,
+      "time": 50.9199659175938
+    },
+    {
+      "duration": 1.0,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9,
+      "time": 51.9199659175938
+    },
+    {
+      "duration": 0.25,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.225,
+      "time": 52.9199659175938
+    },
+    {
+      "duration": 0.25,
+      "notes": [
+        {
+          "fret": 14,
+          "string": 4
+        }
+      ],
+      "sound_duration": 0.225,
+      "time": 53.1699659175938
+    },
+    {
+      "duration": 2.0,
+      "notes": [
+        {
+          "fret": 11,
+          "string": 4
+        }
+      ],
+      "sound_duration": 1.8,
+      "time": 53.4199659175938
+    },
+    {
+      "duration": 1.0,
+      "notes": [
+        {
+          "fret": 7,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.9,
+      "time": 55.4199659175938
+    },
+    {
+      "duration": 0.5,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.45,
+      "time": 56.4199659175938
+    },
+    {
+      "duration": 1.0,
+      "notes": [
+        {
+          "fret": 16,
+          "string": 5
+        },
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9,
+      "time": 57.291207188158296
+    },
+    {
+      "duration": 0.5,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        },
+        {
+          "fret": 1,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.45,
+      "time": 58.291207188158296
+    },
+    {
+      "duration": 0.5,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.45,
+      "time": 59.775210844760295
+    }
+  ],
+  "initial_tempo": 120.0,
+  "lesson_mode": false,
+  "name": "random_melody_20260704_133541",
+  "time_signature": [
+    4,
+    4
+  ],
+  "tuning": [
+    82.41,
+    110.0,
+    146.83,
+    196.0,
+    246.94,
+    329.63
+  ]
+}

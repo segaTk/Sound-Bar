@@ -1,0 +1,7 @@
+Time,Type,StringIdx,ExpectedFreq,DetectedFreq,HitResult
+2.0000,Target,0,82.41,,Miss
+4.0000,Target,0,87.31,,Miss
+6.0000,Target,0,92.50,,Miss
+8.0000,Target,0,98.00,,Miss
+10.0000,Target,0,103.83,,Miss
+12.0000,Target,0,110.00,,Miss

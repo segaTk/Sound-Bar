@@ -1,0 +1,16 @@
+Time,Type,StringIdx,ExpectedFreq,DetectedFreq,HitResult
+0.0000,Target,0,82.41,,Miss
+0.4286,Target,1,123.47,,Miss
+1.7143,Target,2,164.81,,Miss
+1.2857,Target,3,196.00,,Miss
+2.5714,Target,0,98.00,106.61,Hit
+3.0000,Target,1,123.47,242.48,Hit
+4.7143,Target,1,123.47,232.29,Hit
+5.1429,Target,0,82.41,364.98,Hit
+7.2857,Target,1,123.47,242.80,Hit
+7.7143,Target,0,98.00,106.22,Hit
+9.8571,Target,1,123.47,233.11,Hit
+10.2857,Target,0,82.41,364.27,Hit
+12.8571,Target,0,98.00,106.14,Hit
+17.5714,Target,2,164.81,333.03,Hit
+19.2857,Target,2,146.83,327.52,Hit

@@ -1,0 +1,43 @@
+{
+  "name": "Tetris Theme A",
+  "notes": [
+    {"string": 2, "fret": 4, "time": 2.0}, {"string": 1, "fret": 2, "time": 2.4},
+    {"string": 1, "fret": 3, "time": 2.8}, {"string": 0, "fret": 5, "time": 3.2},
+    {"string": 1, "fret": 3, "time": 3.6}, {"string": 1, "fret": 2, "time": 4.0},
+    {"string": 2, "fret": 4, "time": 4.4}, {"string": 2, "fret": 2, "time": 4.8},
+    {"string": 2, "fret": 0, "time": 5.2}, {"string": 2, "fret": 2, "time": 5.6},
+    {"string": 1, "fret": 3, "time": 6.0}, {"string": 2, "fret": 4, "time": 6.4},
+    {"string": 1, "fret": 2, "time": 6.8}, {"string": 1, "fret": 3, "time": 7.2},
+    {"string": 0, "fret": 5, "time": 7.6}, {"string": 1, "fret": 3, "time": 8.0},
+    {"string": 1, "fret": 2, "time": 8.4}, {"string": 2, "fret": 4, "time": 8.8},
+    {"string": 2, "fret": 2, "time": 9.2}, {"string": 2, "fret": 0, "time": 9.6},
+    {"string": 2, "fret": 2, "time": 10.0}, {"string": 1, "fret": 3, "time": 10.4},
+    
+    {"string": 2, "fret": 4, "time": 11.0}, {"string": 1, "fret": 2, "time": 11.4},
+    {"string": 1, "fret": 3, "time": 11.8}, {"string": 0, "fret": 5, "time": 12.2},
+    {"string": 1, "fret": 3, "time": 12.6}, {"string": 1, "fret": 2, "time": 13.0},
+    {"string": 2, "fret": 4, "time": 13.4}, {"string": 2, "fret": 2, "time": 13.8},
+    {"string": 2, "fret": 0, "time": 14.2}, {"string": 2, "fret": 2, "time": 14.6},
+    {"string": 1, "fret": 3, "time": 15.0}, {"string": 2, "fret": 4, "time": 15.4},
+    {"string": 1, "fret": 2, "time": 15.8}, {"string": 1, "fret": 3, "time": 16.2},
+    {"string": 0, "fret": 5, "time": 16.6}, {"string": 1, "fret": 3, "time": 17.0},
+    {"string": 1, "fret": 2, "time": 17.4}, {"string": 2, "fret": 4, "time": 17.8},
+    {"string": 2, "fret": 2, "time": 18.2}, {"string": 2, "fret": 0, "time": 18.6},
+    {"string": 2, "fret": 2, "time": 19.0}, {"string": 1, "fret": 3, "time": 19.4},
+
+    {"string": 1, "fret": 2, "time": 20.0}, {"string": 2, "fret": 4, "time": 20.4},
+    {"string": 2, "fret": 5, "time": 20.8}, {"string": 2, "fret": 4, "time": 21.2},
+    {"string": 2, "fret": 2, "time": 21.6}, {"string": 2, "fret": 0, "time": 22.0},
+    {"string": 1, "fret": 3, "time": 22.4}, {"string": 1, "fret": 2, "time": 22.8},
+    {"string": 1, "fret": 3, "time": 23.2}, {"string": 0, "fret": 5, "time": 23.6},
+    {"string": 1, "fret": 3, "time": 24.0}, {"string": 1, "fret": 2, "time": 24.4},
+    {"string": 2, "fret": 4, "time": 24.8}, {"string": 2, "fret": 2, "time": 25.2},
+    {"string": 2, "fret": 0, "time": 25.6}, {"string": 2, "fret": 2, "time": 26.0},
+    {"string": 1, "fret": 3, "time": 26.4}, {"string": 2, "fret": 4, "time": 26.8},
+    {"string": 1, "fret": 2, "time": 27.2}, {"string": 1, "fret": 3, "time": 27.6},
+    {"string": 0, "fret": 5, "time": 28.0}, {"string": 1, "fret": 3, "time": 28.4},
+    {"string": 1, "fret": 2, "time": 28.8}, {"string": 2, "fret": 4, "time": 29.2},
+    {"string": 2, "fret": 2, "time": 29.6}, {"string": 2, "fret": 0, "time": 30.0},
+    {"string": 2, "fret": 2, "time": 30.4}, {"string": 1, "fret": 3, "time": 30.8}
+  ]
+}

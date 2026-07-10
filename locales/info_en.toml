@@ -1,0 +1,31 @@
+# locales/info_en.toml
+
+title = "About Bomb Notes"
+
+[[sections]]
+heading = "What is this"
+body    = "Bomb Notes is an interactive guitar trainer.\nNotes fly right-to-left; you play on a real guitar — the microphone detects the pitch and counts hits."
+
+[[sections]]
+heading = "Getting started"
+body    = "1. Connect your guitar or ensure the microphone picks it up.\n2. Select a song from the list (↑↓, Enter).\n3. Press M to choose a microphone if needed.\n4. Play!"
+
+[[sections]]
+heading = "In-game controls"
+body    = "M — microphone\nT — tuner\nS / W — speed (−/+)\nP — pause\nZ — auto-play\nR — record\nO — audio output\nEsc — stats / exit"
+
+[[sections]]
+heading = "Tuner"
+body    = "The tuner detects the pitch of the string you play.\nF — freeze display\nR — record session\n↑↓ — select recording\nEnter — play back"
+
+[[sections]]
+heading = "Lessons"
+body    = "The Lessons section has interactive step-by-step lessons.\nThe Theory section is a reference guide.\nLinks inside lesson steps navigate to the Tuner or Practice."
+
+[[sections]]
+heading = "File formats"
+body    = "Songs are stored in the songs/ folder as JSON.\nImport from MusicXML — the ^ button in Practice menu.\nLessons are in the lessons/ folder as TOML."
+
+[[sections]]
+heading = "Author"
+body    = "SjTk\nMIT License"

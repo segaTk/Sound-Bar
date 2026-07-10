@@ -1,0 +1,35 @@
+[display]
+base_width = 1920.0
+base_height = 1080.0
+
+[layout]
+left_margin = 100.0
+right_panel_width = 250.0
+right_margin = 50.0
+top_margin = 80.0
+
+[fretboard]
+num_strings = 6
+num_frets = 20
+string_spacing = 40.0
+fret_spacing_base = 70.0
+fret_scale = 0.66
+highway_height = 350.0
+
+[tracks]
+notation_height = 100.0
+tab_height = 80.0
+spacing_from_fretboard = 60.0
+spacing_between_tracks = 15.0
+track_visible_frets = 12.0
+
+[widgets]
+waveform_width = 180.0
+waveform_height = 160.0
+freq_graph_width = 220.0
+freq_graph_height = 150.0
+
+[gameplay]
+note_speed = 250.0
+hit_tolerance = 80.0
+hit_tolerance_freq = 40.0

@@ -1,0 +1,5139 @@
+{
+  "events": [
+    {
+      "chord_name": null,
+      "duration": 0.9230206598510742,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.9230206598510742,
+      "time": 0.0
+    },
+    {
+      "chord_name": null,
+      "duration": 0.6922514098510744,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.6922514098510744,
+      "time": 0.9230769999999999
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598510743,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.4614821598510743,
+      "time": 1.61538475
+    },
+    {
+      "chord_name": null,
+      "duration": 0.23071290985107407,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.23071290985107407,
+      "time": 2.07692325
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598510743,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.4614821598510743,
+      "time": 2.3076925
+    },
+    {
+      "chord_name": null,
+      "duration": 0.6922514098510737,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.6922514098510737,
+      "time": 2.769231
+    },
+    {
+      "chord_name": null,
+      "duration": 0.23071290985107407,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.23071290985107407,
+      "time": 3.4615387499999994
+    },
+    {
+      "chord_name": null,
+      "duration": 0.923020659851074,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.923020659851074,
+      "time": 3.6923079999999993
+    },
+    {
+      "chord_name": null,
+      "duration": 0.6922514098510746,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.6922514098510746,
+      "time": 4.615384999999999
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598510739,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.4614821598510739,
+      "time": 5.307692749999999
+    },
+    {
+      "chord_name": null,
+      "duration": 0.23071290985107407,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.23071290985107407,
+      "time": 5.769231249999999
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598510739,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.4614821598510739,
+      "time": 6.000000499999999
+    },
+    {
+      "chord_name": null,
+      "duration": 0.6922514098510737,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.6922514098510737,
+      "time": 6.461538999999998
+    },
+    {
+      "chord_name": null,
+      "duration": 0.23071290985107407,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.23071290985107407,
+      "time": 7.153846749999998
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598510744,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9230206598510744,
+      "time": 7.384615999999998
+    },
+    {
+      "chord_name": null,
+      "duration": 0.6922514098510746,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.6922514098510746,
+      "time": 8.307692999999999
+    },
+    {
+      "chord_name": null,
+      "duration": 0.46148215985107477,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.46148215985107477,
+      "time": 9.00000075
+    },
+    {
+      "chord_name": null,
+      "duration": 0.23071290985107495,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.23071290985107495,
+      "time": 9.461539250000001
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598510762,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9230206598510762,
+      "time": 9.692308500000003
+    },
+    {
+      "chord_name": null,
+      "duration": 0.46148215985107655,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.46148215985107655,
+      "time": 10.615385500000006
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598510744,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9230206598510744,
+      "time": 11.076924000000009
+    },
+    {
+      "chord_name": null,
+      "duration": 0.6922514098510746,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.6922514098510746,
+      "time": 12.00000100000001
+    },
+    {
+      "chord_name": null,
+      "duration": 0.46148215985107477,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.46148215985107477,
+      "time": 12.692308750000011
+    },
+    {
+      "chord_name": null,
+      "duration": 0.23071290985107495,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.23071290985107495,
+      "time": 13.153847250000013
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598510762,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9230206598510762,
+      "time": 13.384616500000014
+    },
+    {
+      "chord_name": null,
+      "duration": 0.46148215985107655,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.46148215985107655,
+      "time": 14.307693500000017
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598510744,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.9230206598510744,
+      "time": 14.76923200000002
+    },
+    {
+      "chord_name": null,
+      "duration": 0.46148215985107477,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.46148215985107477,
+      "time": 15.692309000000021
+    },
+    {
+      "chord_name": null,
+      "duration": 0.2307129098510785,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.2307129098510785,
+      "time": 16.153847500000023
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598510801,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.4614821598510801,
+      "time": 16.384616750000028
+    },
+    {
+      "chord_name": null,
+      "duration": 0.2307129098510785,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.2307129098510785,
+      "time": 16.846155250000034
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598510801,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.4614821598510801,
+      "time": 17.07692450000004
+    },
+    {
+      "chord_name": null,
+      "duration": 0.6922514098510888,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.6922514098510888,
+      "time": 17.538463000000046
+    },
+    {
+      "chord_name": null,
+      "duration": 0.2307129098510785,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.2307129098510785,
+      "time": 18.23077075000006
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598510797,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9230206598510797,
+      "time": 18.461540000000067
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598510801,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.4614821598510801,
+      "time": 19.384617000000073
+    },
+    {
+      "chord_name": null,
+      "duration": 0.2307129098510785,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.2307129098510785,
+      "time": 19.84615550000008
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598510801,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.4614821598510801,
+      "time": 20.076924750000085
+    },
+    {
+      "chord_name": null,
+      "duration": 0.2307129098510785,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.2307129098510785,
+      "time": 20.538463250000092
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598510801,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.4614821598510801,
+      "time": 20.769232500000097
+    },
+    {
+      "chord_name": null,
+      "duration": 0.6922514098510888,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.6922514098510888,
+      "time": 21.230771000000104
+    },
+    {
+      "chord_name": null,
+      "duration": 0.2307129098510785,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.2307129098510785,
+      "time": 21.92307875000012
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598510797,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9230206598510797,
+      "time": 22.153848000000124
+    },
+    {
+      "chord_name": null,
+      "duration": 0.6922514098510817,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.6922514098510817,
+      "time": 23.07692500000013
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598510801,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.4614821598510801,
+      "time": 23.76923275000014
+    },
+    {
+      "chord_name": null,
+      "duration": 0.23071290985108206,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.23071290985108206,
+      "time": 24.230771250000146
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598510868,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9230206598510868,
+      "time": 24.461540500000154
+    },
+    {
+      "chord_name": null,
+      "duration": 0.46148215985109076,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.46148215985109076,
+      "time": 25.384617500000168
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598510797,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9230206598510797,
+      "time": 25.846156000000185
+    },
+    {
+      "chord_name": null,
+      "duration": 0.6922514098510817,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.6922514098510817,
+      "time": 26.76923300000019
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598510801,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.4614821598510801,
+      "time": 27.4615407500002
+    },
+    {
+      "chord_name": null,
+      "duration": 0.23071290985108206,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.23071290985108206,
+      "time": 27.923079250000207
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598510868,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9230206598510868,
+      "time": 28.153848500000215
+    },
+    {
+      "chord_name": null,
+      "duration": 0.46148215985109076,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.46148215985109076,
+      "time": 29.07692550000023
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598510797,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.9230206598510797,
+      "time": 29.538464000000246
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598510801,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.4614821598510801,
+      "time": 30.461541000000253
+    },
+    {
+      "chord_name": null,
+      "duration": 0.2307129098510785,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.2307129098510785,
+      "time": 30.92307950000026
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598510801,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.4614821598510801,
+      "time": 31.153848750000265
+    },
+    {
+      "chord_name": null,
+      "duration": 0.2307129098510785,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.2307129098510785,
+      "time": 31.61538725000027
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598510801,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.4614821598510801,
+      "time": 31.846156500000276
+    },
+    {
+      "chord_name": null,
+      "duration": 0.6922514098510604,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.6922514098510604,
+      "time": 32.30769500000028
+    },
+    {
+      "chord_name": null,
+      "duration": 0.2307129098510714,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.2307129098510714,
+      "time": 33.00000275000026
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598510691,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9230206598510691,
+      "time": 33.23077200000026
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598510659,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.4614821598510659,
+      "time": 34.15384900000025
+    },
+    {
+      "chord_name": null,
+      "duration": 0.2307129098510714,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.2307129098510714,
+      "time": 34.61538750000024
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598510659,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.4614821598510659,
+      "time": 34.84615675000023
+    },
+    {
+      "chord_name": null,
+      "duration": 0.2307129098510714,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.2307129098510714,
+      "time": 35.30769525000022
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598510659,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.4614821598510659,
+      "time": 35.53846450000022
+    },
+    {
+      "chord_name": null,
+      "duration": 0.6922514098510604,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.6922514098510604,
+      "time": 36.000003000000206
+    },
+    {
+      "chord_name": null,
+      "duration": 0.2307129098510714,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.2307129098510714,
+      "time": 36.69231075000019
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598510691,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9230206598510691,
+      "time": 36.92308000000018
+    },
+    {
+      "chord_name": null,
+      "duration": 0.6922514098510675,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.6922514098510675,
+      "time": 37.846157000000176
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598510659,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.4614821598510659,
+      "time": 38.538464750000166
+    },
+    {
+      "chord_name": null,
+      "duration": 0.2307129098510643,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.2307129098510643,
+      "time": 39.000003250000155
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598510549,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9230206598510549,
+      "time": 39.23077250000014
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598510517,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.4614821598510517,
+      "time": 40.15384950000012
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598510691,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9230206598510691,
+      "time": 40.615388000000095
+    },
+    {
+      "chord_name": null,
+      "duration": 0.6922514098510675,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.6922514098510675,
+      "time": 41.53846500000009
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598510659,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.4614821598510659,
+      "time": 42.23077275000008
+    },
+    {
+      "chord_name": null,
+      "duration": 0.2307129098510643,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.2307129098510643,
+      "time": 42.69231125000007
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598510549,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9230206598510549,
+      "time": 42.923080500000054
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598510517,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.4614821598510517,
+      "time": 43.84615750000003
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598510691,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.9230206598510691,
+      "time": 44.30769600000001
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598510659,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.4614821598510659,
+      "time": 45.230773
+    },
+    {
+      "chord_name": null,
+      "duration": 0.2307129098510714,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.2307129098510714,
+      "time": 45.69231149999999
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598510659,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.4614821598510659,
+      "time": 45.92308074999998
+    },
+    {
+      "chord_name": null,
+      "duration": 0.2307129098510714,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.2307129098510714,
+      "time": 46.38461924999997
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598510659,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.4614821598510659,
+      "time": 46.615388499999966
+    },
+    {
+      "chord_name": null,
+      "duration": 0.6922514098510604,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.6922514098510604,
+      "time": 47.076926999999955
+    },
+    {
+      "chord_name": null,
+      "duration": 0.2307129098510714,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.2307129098510714,
+      "time": 47.76923474999994
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598510691,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9230206598510691,
+      "time": 48.00000399999993
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598510659,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.4614821598510659,
+      "time": 48.923080999999925
+    },
+    {
+      "chord_name": null,
+      "duration": 0.2307129098510714,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.2307129098510714,
+      "time": 49.384619499999914
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598510659,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.4614821598510659,
+      "time": 49.61538874999991
+    },
+    {
+      "chord_name": null,
+      "duration": 0.2307129098510714,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.2307129098510714,
+      "time": 50.0769272499999
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598510659,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.4614821598510659,
+      "time": 50.30769649999989
+    },
+    {
+      "chord_name": null,
+      "duration": 0.6922514098510604,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.6922514098510604,
+      "time": 50.76923499999988
+    },
+    {
+      "chord_name": null,
+      "duration": 0.2307129098510714,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.2307129098510714,
+      "time": 51.461542749999865
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598510691,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9230206598510691,
+      "time": 51.69231199999986
+    },
+    {
+      "chord_name": null,
+      "duration": 0.6922514098510675,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.6922514098510675,
+      "time": 52.61538899999985
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598510659,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.4614821598510659,
+      "time": 53.30769674999984
+    },
+    {
+      "chord_name": null,
+      "duration": 0.2307129098510643,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.2307129098510643,
+      "time": 53.76923524999983
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598510549,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9230206598510549,
+      "time": 54.00000449999982
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598510517,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.4614821598510517,
+      "time": 54.923081499999796
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598510691,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9230206598510691,
+      "time": 55.38461999999977
+    },
+    {
+      "chord_name": null,
+      "duration": 0.6922514098510675,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.6922514098510675,
+      "time": 56.30769699999976
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598510659,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.4614821598510659,
+      "time": 57.00000474999975
+    },
+    {
+      "chord_name": null,
+      "duration": 0.2307129098510643,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.2307129098510643,
+      "time": 57.46154324999974
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598510549,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9230206598510549,
+      "time": 57.69231249999973
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598510517,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.4614821598510517,
+      "time": 58.61538949999971
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598510691,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.9230206598510691,
+      "time": 59.07692799999968
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598510659,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.4614821598510659,
+      "time": 60.000004999999675
+    },
+    {
+      "chord_name": null,
+      "duration": 0.2307129098510714,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.2307129098510714,
+      "time": 60.461543499999664
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598510659,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.4614821598510659,
+      "time": 60.69231274999966
+    },
+    {
+      "chord_name": null,
+      "duration": 0.2307129098510714,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.2307129098510714,
+      "time": 61.15385124999965
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598510659,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.4614821598510659,
+      "time": 61.38462049999964
+    },
+    {
+      "chord_name": null,
+      "duration": 0.6922514098510604,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.6922514098510604,
+      "time": 61.84615899999963
+    },
+    {
+      "chord_name": null,
+      "duration": 0.2307129098510714,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.2307129098510714,
+      "time": 62.538466749999614
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598510691,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9230206598510691,
+      "time": 62.76923599999961
+    },
+    {
+      "chord_name": null,
+      "duration": 0.461482159851073,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.461482159851073,
+      "time": 63.6923129999996
+    },
+    {
+      "chord_name": null,
+      "duration": 0.2307129098510643,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.2307129098510643,
+      "time": 64.1538514999996
+    },
+    {
+      "chord_name": null,
+      "duration": 0.461482159851073,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.461482159851073,
+      "time": 64.3846207499996
+    },
+    {
+      "chord_name": null,
+      "duration": 0.2307129098510643,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.2307129098510643,
+      "time": 64.8461592499996
+    },
+    {
+      "chord_name": null,
+      "duration": 0.461482159851073,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.461482159851073,
+      "time": 65.0769284999996
+    },
+    {
+      "chord_name": null,
+      "duration": 0.6922514098510533,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.6922514098510533,
+      "time": 65.5384669999996
+    },
+    {
+      "chord_name": null,
+      "duration": 0.2307129098510643,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.2307129098510643,
+      "time": 66.23077474999958
+    },
+    {
+      "chord_name": null,
+      "duration": 0.923020659851062,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.923020659851062,
+      "time": 66.46154399999958
+    },
+    {
+      "chord_name": null,
+      "duration": 0.6922514098510675,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.6922514098510675,
+      "time": 67.38462099999957
+    },
+    {
+      "chord_name": null,
+      "duration": 0.461482159851073,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.461482159851073,
+      "time": 68.07692874999957
+    },
+    {
+      "chord_name": null,
+      "duration": 0.2307129098510643,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.2307129098510643,
+      "time": 68.53846724999957
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598510762,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9230206598510762,
+      "time": 68.76923649999956
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598510588,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.4614821598510588,
+      "time": 69.69231349999957
+    },
+    {
+      "chord_name": null,
+      "duration": 0.923020659851062,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.923020659851062,
+      "time": 70.15385199999956
+    },
+    {
+      "chord_name": null,
+      "duration": 0.6922514098510675,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.6922514098510675,
+      "time": 71.07692899999955
+    },
+    {
+      "chord_name": null,
+      "duration": 0.461482159851073,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.461482159851073,
+      "time": 71.76923674999955
+    },
+    {
+      "chord_name": null,
+      "duration": 0.2307129098510643,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.2307129098510643,
+      "time": 72.23077524999955
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598510762,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9230206598510762,
+      "time": 72.46154449999955
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598510588,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.4614821598510588,
+      "time": 73.38462149999955
+    },
+    {
+      "chord_name": null,
+      "duration": 0.923020659851062,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.923020659851062,
+      "time": 73.84615999999954
+    },
+    {
+      "chord_name": null,
+      "duration": 0.461482159851073,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.461482159851073,
+      "time": 74.76923699999953
+    },
+    {
+      "chord_name": null,
+      "duration": 0.2307129098510643,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.2307129098510643,
+      "time": 75.23077549999954
+    },
+    {
+      "chord_name": null,
+      "duration": 0.461482159851073,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.461482159851073,
+      "time": 75.46154474999953
+    },
+    {
+      "chord_name": null,
+      "duration": 0.2307129098510643,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.2307129098510643,
+      "time": 75.92308324999954
+    },
+    {
+      "chord_name": null,
+      "duration": 0.461482159851073,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.461482159851073,
+      "time": 76.15385249999953
+    },
+    {
+      "chord_name": null,
+      "duration": 0.6922514098510533,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.6922514098510533,
+      "time": 76.61539099999953
+    },
+    {
+      "chord_name": null,
+      "duration": 0.2307129098510643,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.2307129098510643,
+      "time": 77.30769874999952
+    },
+    {
+      "chord_name": null,
+      "duration": 0.923020659851062,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.923020659851062,
+      "time": 77.53846799999951
+    },
+    {
+      "chord_name": null,
+      "duration": 0.461482159851073,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.461482159851073,
+      "time": 78.4615449999995
+    },
+    {
+      "chord_name": null,
+      "duration": 0.2307129098510643,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.2307129098510643,
+      "time": 78.9230834999995
+    },
+    {
+      "chord_name": null,
+      "duration": 0.461482159851073,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.461482159851073,
+      "time": 79.1538527499995
+    },
+    {
+      "chord_name": null,
+      "duration": 0.2307129098510643,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.2307129098510643,
+      "time": 79.6153912499995
+    },
+    {
+      "chord_name": null,
+      "duration": 0.461482159851073,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.461482159851073,
+      "time": 79.8461604999995
+    },
+    {
+      "chord_name": null,
+      "duration": 0.6922514098510533,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.6922514098510533,
+      "time": 80.3076989999995
+    },
+    {
+      "chord_name": null,
+      "duration": 0.2307129098510643,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.2307129098510643,
+      "time": 81.00000674999949
+    },
+    {
+      "chord_name": null,
+      "duration": 0.923020659851062,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.923020659851062,
+      "time": 81.23077599999948
+    },
+    {
+      "chord_name": null,
+      "duration": 0.6922514098510675,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.6922514098510675,
+      "time": 82.15385299999947
+    },
+    {
+      "chord_name": null,
+      "duration": 0.461482159851073,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.461482159851073,
+      "time": 82.84616074999947
+    },
+    {
+      "chord_name": null,
+      "duration": 0.2307129098510643,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.2307129098510643,
+      "time": 83.30769924999947
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598510762,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9230206598510762,
+      "time": 83.53846849999947
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598510588,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.4614821598510588,
+      "time": 84.46154549999947
+    },
+    {
+      "chord_name": null,
+      "duration": 0.923020659851062,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.923020659851062,
+      "time": 84.92308399999946
+    },
+    {
+      "chord_name": null,
+      "duration": 0.6922514098510675,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.6922514098510675,
+      "time": 85.84616099999946
+    },
+    {
+      "chord_name": null,
+      "duration": 0.461482159851073,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.461482159851073,
+      "time": 86.53846874999945
+    },
+    {
+      "chord_name": null,
+      "duration": 0.2307129098510643,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.2307129098510643,
+      "time": 87.00000724999946
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598510762,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9230206598510762,
+      "time": 87.23077649999945
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598510588,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.4614821598510588,
+      "time": 88.15385349999946
+    },
+    {
+      "chord_name": null,
+      "duration": 0.923020659851062,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.923020659851062,
+      "time": 88.61539199999945
+    },
+    {
+      "chord_name": null,
+      "duration": 0.461482159851073,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.461482159851073,
+      "time": 89.53846899999944
+    },
+    {
+      "chord_name": null,
+      "duration": 0.2307129098510643,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.2307129098510643,
+      "time": 90.00000749999944
+    },
+    {
+      "chord_name": null,
+      "duration": 0.461482159851073,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.461482159851073,
+      "time": 90.23077674999944
+    },
+    {
+      "chord_name": null,
+      "duration": 0.2307129098510643,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.2307129098510643,
+      "time": 90.69231524999944
+    },
+    {
+      "chord_name": null,
+      "duration": 0.461482159851073,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.461482159851073,
+      "time": 90.92308449999943
+    },
+    {
+      "chord_name": null,
+      "duration": 0.6922514098510533,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.6922514098510533,
+      "time": 91.38462299999944
+    },
+    {
+      "chord_name": null,
+      "duration": 0.2307129098510643,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.2307129098510643,
+      "time": 92.07693074999942
+    },
+    {
+      "chord_name": null,
+      "duration": 0.923020659851062,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.923020659851062,
+      "time": 92.30769999999941
+    },
+    {
+      "chord_name": null,
+      "duration": 0.461482159851073,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.461482159851073,
+      "time": 93.2307769999994
+    },
+    {
+      "chord_name": null,
+      "duration": 0.2307129098510643,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.2307129098510643,
+      "time": 93.69231549999941
+    },
+    {
+      "chord_name": null,
+      "duration": 0.461482159851073,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.461482159851073,
+      "time": 93.9230847499994
+    },
+    {
+      "chord_name": null,
+      "duration": 0.2307129098510643,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.2307129098510643,
+      "time": 94.38462324999941
+    },
+    {
+      "chord_name": null,
+      "duration": 0.461482159851073,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.461482159851073,
+      "time": 94.6153924999994
+    },
+    {
+      "chord_name": null,
+      "duration": 0.6922514098510533,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.6922514098510533,
+      "time": 95.0769309999994
+    },
+    {
+      "chord_name": null,
+      "duration": 0.2307129098510643,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.2307129098510643,
+      "time": 95.76923874999939
+    },
+    {
+      "chord_name": null,
+      "duration": 0.923020659851062,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.923020659851062,
+      "time": 96.00000799999938
+    },
+    {
+      "chord_name": null,
+      "duration": 0.6922514098510675,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.6922514098510675,
+      "time": 96.92308499999938
+    },
+    {
+      "chord_name": null,
+      "duration": 0.461482159851073,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.461482159851073,
+      "time": 97.61539274999937
+    },
+    {
+      "chord_name": null,
+      "duration": 0.2307129098510643,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.2307129098510643,
+      "time": 98.07693124999938
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598510762,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9230206598510762,
+      "time": 98.30770049999937
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598510588,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.4614821598510588,
+      "time": 99.23077749999938
+    },
+    {
+      "chord_name": null,
+      "duration": 0.923020659851062,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.923020659851062,
+      "time": 99.69231599999937
+    },
+    {
+      "chord_name": null,
+      "duration": 0.6922514098510675,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.6922514098510675,
+      "time": 100.61539299999936
+    },
+    {
+      "chord_name": null,
+      "duration": 0.461482159851073,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.461482159851073,
+      "time": 101.30770074999936
+    },
+    {
+      "chord_name": null,
+      "duration": 0.2307129098510643,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.2307129098510643,
+      "time": 101.76923924999936
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598510762,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9230206598510762,
+      "time": 102.00000849999935
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598510588,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.4614821598510588,
+      "time": 102.92308549999936
+    },
+    {
+      "chord_name": null,
+      "duration": 0.923020659851062,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.923020659851062,
+      "time": 103.38462399999935
+    },
+    {
+      "chord_name": null,
+      "duration": 0.461482159851073,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.461482159851073,
+      "time": 104.30770099999934
+    },
+    {
+      "chord_name": null,
+      "duration": 0.2307129098510643,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.2307129098510643,
+      "time": 104.76923949999934
+    },
+    {
+      "chord_name": null,
+      "duration": 0.461482159851073,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.461482159851073,
+      "time": 105.00000874999934
+    },
+    {
+      "chord_name": null,
+      "duration": 0.2307129098510643,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.2307129098510643,
+      "time": 105.46154724999934
+    },
+    {
+      "chord_name": null,
+      "duration": 0.461482159851073,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.461482159851073,
+      "time": 105.69231649999934
+    },
+    {
+      "chord_name": null,
+      "duration": 0.6922514098510533,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.6922514098510533,
+      "time": 106.15385499999934
+    },
+    {
+      "chord_name": null,
+      "duration": 0.2307129098510643,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.2307129098510643,
+      "time": 106.84616274999932
+    },
+    {
+      "chord_name": null,
+      "duration": 0.923020659851062,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.923020659851062,
+      "time": 107.07693199999932
+    },
+    {
+      "chord_name": null,
+      "duration": 0.461482159851073,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.461482159851073,
+      "time": 108.00000899999931
+    },
+    {
+      "chord_name": null,
+      "duration": 0.2307129098510643,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.2307129098510643,
+      "time": 108.46154749999931
+    },
+    {
+      "chord_name": null,
+      "duration": 0.461482159851073,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.461482159851073,
+      "time": 108.6923167499993
+    },
+    {
+      "chord_name": null,
+      "duration": 0.2307129098510643,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.2307129098510643,
+      "time": 109.15385524999931
+    },
+    {
+      "chord_name": null,
+      "duration": 0.461482159851073,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.461482159851073,
+      "time": 109.3846244999993
+    },
+    {
+      "chord_name": null,
+      "duration": 0.6922514098510533,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.6922514098510533,
+      "time": 109.84616299999931
+    },
+    {
+      "chord_name": null,
+      "duration": 0.2307129098510643,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.2307129098510643,
+      "time": 110.53847074999929
+    },
+    {
+      "chord_name": null,
+      "duration": 0.923020659851062,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.923020659851062,
+      "time": 110.76923999999929
+    },
+    {
+      "chord_name": null,
+      "duration": 0.6922514098510675,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.6922514098510675,
+      "time": 111.69231699999928
+    },
+    {
+      "chord_name": null,
+      "duration": 0.461482159851073,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.461482159851073,
+      "time": 112.38462474999928
+    },
+    {
+      "chord_name": null,
+      "duration": 0.2307129098510643,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.2307129098510643,
+      "time": 112.84616324999928
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598510762,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9230206598510762,
+      "time": 113.07693249999927
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598510588,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.4614821598510588,
+      "time": 114.00000949999928
+    },
+    {
+      "chord_name": null,
+      "duration": 0.923020659851062,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.923020659851062,
+      "time": 114.46154799999927
+    },
+    {
+      "chord_name": null,
+      "duration": 0.6922514098510675,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.6922514098510675,
+      "time": 115.38462499999926
+    },
+    {
+      "chord_name": null,
+      "duration": 0.461482159851073,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.461482159851073,
+      "time": 116.07693274999926
+    },
+    {
+      "chord_name": null,
+      "duration": 0.2307129098510643,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.2307129098510643,
+      "time": 116.53847124999926
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598510762,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9230206598510762,
+      "time": 116.76924049999926
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598510588,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.4614821598510588,
+      "time": 117.69231749999926
+    },
+    {
+      "chord_name": null,
+      "duration": 0.923020659851062,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.923020659851062,
+      "time": 118.15385599999925
+    },
+    {
+      "chord_name": null,
+      "duration": 0.461482159851073,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.461482159851073,
+      "time": 119.07693299999924
+    },
+    {
+      "chord_name": null,
+      "duration": 0.2307129098510643,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.2307129098510643,
+      "time": 119.53847149999925
+    },
+    {
+      "chord_name": null,
+      "duration": 0.461482159851073,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.461482159851073,
+      "time": 119.76924074999924
+    },
+    {
+      "chord_name": null,
+      "duration": 0.2307129098510643,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.2307129098510643,
+      "time": 120.23077924999924
+    },
+    {
+      "chord_name": null,
+      "duration": 0.461482159851073,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.461482159851073,
+      "time": 120.46154849999924
+    },
+    {
+      "chord_name": null,
+      "duration": 0.6922514098510533,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.6922514098510533,
+      "time": 120.92308699999924
+    },
+    {
+      "chord_name": null,
+      "duration": 0.2307129098510643,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.2307129098510643,
+      "time": 121.61539474999923
+    },
+    {
+      "chord_name": null,
+      "duration": 0.923020659851062,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.923020659851062,
+      "time": 121.84616399999922
+    },
+    {
+      "chord_name": null,
+      "duration": 0.461482159851073,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.461482159851073,
+      "time": 122.76924099999921
+    },
+    {
+      "chord_name": null,
+      "duration": 0.2307129098510643,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.2307129098510643,
+      "time": 123.23077949999922
+    },
+    {
+      "chord_name": null,
+      "duration": 0.461482159851073,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.461482159851073,
+      "time": 123.46154874999921
+    },
+    {
+      "chord_name": null,
+      "duration": 0.2307129098510643,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.2307129098510643,
+      "time": 123.92308724999921
+    },
+    {
+      "chord_name": null,
+      "duration": 0.461482159851073,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.461482159851073,
+      "time": 124.15385649999921
+    },
+    {
+      "chord_name": null,
+      "duration": 0.6922514098510533,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.6922514098510533,
+      "time": 124.61539499999921
+    },
+    {
+      "chord_name": null,
+      "duration": 0.2307129098510643,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.2307129098510643,
+      "time": 125.3077027499992
+    },
+    {
+      "chord_name": null,
+      "duration": 0.923020659851062,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.923020659851062,
+      "time": 125.53847199999919
+    },
+    {
+      "chord_name": null,
+      "duration": 0.6922514098510675,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.6922514098510675,
+      "time": 126.46154899999918
+    },
+    {
+      "chord_name": null,
+      "duration": 0.461482159851073,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.461482159851073,
+      "time": 127.15385674999918
+    },
+    {
+      "chord_name": null,
+      "duration": 0.2307129098510643,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.2307129098510643,
+      "time": 127.61539524999918
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598511046,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9230206598511046,
+      "time": 127.84616449999918
+    },
+    {
+      "chord_name": null,
+      "duration": 0.46148215985115826,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.46148215985115826,
+      "time": 128.7692414999992
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598511188,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9230206598511188,
+      "time": 129.23077999999927
+    },
+    {
+      "chord_name": null,
+      "duration": 0.6922514098511101,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.6922514098511101,
+      "time": 130.1538569999993
+    },
+    {
+      "chord_name": null,
+      "duration": 0.46148215985112984,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.46148215985112984,
+      "time": 130.84616474999933
+    },
+    {
+      "chord_name": null,
+      "duration": 0.23071290985112114,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.23071290985112114,
+      "time": 131.30770324999938
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598511757,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9230206598511757,
+      "time": 131.53847249999941
+    },
+    {
+      "chord_name": null,
+      "duration": 0.46148215985115826,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.46148215985115826,
+      "time": 132.4615494999995
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598511188,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.9230206598511188,
+      "time": 132.92308799999958
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598511014,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.4614821598511014,
+      "time": 133.84616499999962
+    },
+    {
+      "chord_name": null,
+      "duration": 0.23071290985112114,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.23071290985112114,
+      "time": 134.30770349999963
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598511014,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.4614821598511014,
+      "time": 134.53847274999967
+    },
+    {
+      "chord_name": null,
+      "duration": 0.23071290985112114,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.23071290985112114,
+      "time": 135.0000112499997
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598511014,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.4614821598511014,
+      "time": 135.23078049999972
+    },
+    {
+      "chord_name": null,
+      "duration": 0.6922514098511954,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.6922514098511954,
+      "time": 135.69231899999974
+    },
+    {
+      "chord_name": null,
+      "duration": 0.23071290985112114,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.23071290985112114,
+      "time": 136.38462674999985
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598511188,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9230206598511188,
+      "time": 136.6153959999999
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598511014,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.4614821598511014,
+      "time": 137.53847299999993
+    },
+    {
+      "chord_name": null,
+      "duration": 0.23071290985112114,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.23071290985112114,
+      "time": 138.00001149999994
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598511014,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.4614821598511014,
+      "time": 138.23078074999998
+    },
+    {
+      "chord_name": null,
+      "duration": 0.23071290985112114,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.23071290985112114,
+      "time": 138.69231925
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598511014,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.4614821598511014,
+      "time": 138.92308850000003
+    },
+    {
+      "chord_name": null,
+      "duration": 0.6922514098511954,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.6922514098511954,
+      "time": 139.38462700000005
+    },
+    {
+      "chord_name": null,
+      "duration": 0.23071290985112114,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.23071290985112114,
+      "time": 140.07693475000016
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598511188,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9230206598511188,
+      "time": 140.3077040000002
+    },
+    {
+      "chord_name": null,
+      "duration": 0.6922514098511101,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.6922514098511101,
+      "time": 141.23078100000023
+    },
+    {
+      "chord_name": null,
+      "duration": 0.46148215985112984,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.46148215985112984,
+      "time": 141.92308875000026
+    },
+    {
+      "chord_name": null,
+      "duration": 0.23071290985112114,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.23071290985112114,
+      "time": 142.3846272500003
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598511757,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9230206598511757,
+      "time": 142.61539650000034
+    },
+    {
+      "chord_name": null,
+      "duration": 0.46148215985115826,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.46148215985115826,
+      "time": 143.53847350000044
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598511188,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9230206598511188,
+      "time": 144.0000120000005
+    },
+    {
+      "chord_name": null,
+      "duration": 0.6922514098511101,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.6922514098511101,
+      "time": 144.92308900000054
+    },
+    {
+      "chord_name": null,
+      "duration": 0.46148215985112984,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.46148215985112984,
+      "time": 145.61539675000057
+    },
+    {
+      "chord_name": null,
+      "duration": 0.23071290985112114,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.23071290985112114,
+      "time": 146.07693525000062
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598511757,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9230206598511757,
+      "time": 146.30770450000065
+    },
+    {
+      "chord_name": null,
+      "duration": 0.46148215985115826,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.46148215985115826,
+      "time": 147.23078150000075
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598511188,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.9230206598511188,
+      "time": 147.69232000000082
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598511014,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.4614821598511014,
+      "time": 148.61539700000085
+    },
+    {
+      "chord_name": null,
+      "duration": 0.23071290985112114,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.23071290985112114,
+      "time": 149.07693550000087
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598511014,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.4614821598511014,
+      "time": 149.3077047500009
+    },
+    {
+      "chord_name": null,
+      "duration": 0.23071290985112114,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.23071290985112114,
+      "time": 149.76924325000093
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598511014,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.4614821598511014,
+      "time": 150.00001250000096
+    },
+    {
+      "chord_name": null,
+      "duration": 0.6922514098511954,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.6922514098511954,
+      "time": 150.46155100000098
+    },
+    {
+      "chord_name": null,
+      "duration": 0.23071290985112114,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.23071290985112114,
+      "time": 151.1538587500011
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598511188,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9230206598511188,
+      "time": 151.38462800000113
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598511014,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.4614821598511014,
+      "time": 152.30770500000116
+    },
+    {
+      "chord_name": null,
+      "duration": 0.23071290985112114,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.23071290985112114,
+      "time": 152.76924350000118
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598511014,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.4614821598511014,
+      "time": 153.00001275000122
+    },
+    {
+      "chord_name": null,
+      "duration": 0.23071290985112114,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.23071290985112114,
+      "time": 153.46155125000124
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598511014,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.4614821598511014,
+      "time": 153.69232050000127
+    },
+    {
+      "chord_name": null,
+      "duration": 0.6922514098511954,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.6922514098511954,
+      "time": 154.1538590000013
+    },
+    {
+      "chord_name": null,
+      "duration": 0.23071290985112114,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.23071290985112114,
+      "time": 154.8461667500014
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598511188,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9230206598511188,
+      "time": 155.07693600000144
+    },
+    {
+      "chord_name": null,
+      "duration": 0.6922514098511101,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.6922514098511101,
+      "time": 156.00001300000147
+    },
+    {
+      "chord_name": null,
+      "duration": 0.46148215985112984,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.46148215985112984,
+      "time": 156.6923207500015
+    },
+    {
+      "chord_name": null,
+      "duration": 0.23071290985112114,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.23071290985112114,
+      "time": 157.15385925000155
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598511757,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9230206598511757,
+      "time": 157.38462850000158
+    },
+    {
+      "chord_name": null,
+      "duration": 0.46148215985115826,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.46148215985115826,
+      "time": 158.30770550000167
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598511188,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9230206598511188,
+      "time": 158.76924400000175
+    },
+    {
+      "chord_name": null,
+      "duration": 0.6922514098511101,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.6922514098511101,
+      "time": 159.69232100000178
+    },
+    {
+      "chord_name": null,
+      "duration": 0.46148215985112984,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.46148215985112984,
+      "time": 160.3846287500018
+    },
+    {
+      "chord_name": null,
+      "duration": 0.23071290985112114,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.23071290985112114,
+      "time": 160.84616725000186
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598511757,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9230206598511757,
+      "time": 161.0769365000019
+    },
+    {
+      "chord_name": null,
+      "duration": 0.46148215985115826,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.46148215985115826,
+      "time": 162.00001350000198
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598511188,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.9230206598511188,
+      "time": 162.46155200000206
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598511014,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.4614821598511014,
+      "time": 163.3846290000021
+    },
+    {
+      "chord_name": null,
+      "duration": 0.23071290985112114,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.23071290985112114,
+      "time": 163.8461675000021
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598511014,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.4614821598511014,
+      "time": 164.07693675000215
+    },
+    {
+      "chord_name": null,
+      "duration": 0.23071290985112114,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.23071290985112114,
+      "time": 164.53847525000216
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598511014,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.4614821598511014,
+      "time": 164.7692445000022
+    },
+    {
+      "chord_name": null,
+      "duration": 0.6922514098511954,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.6922514098511954,
+      "time": 165.23078300000222
+    },
+    {
+      "chord_name": null,
+      "duration": 0.23071290985112114,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.23071290985112114,
+      "time": 165.92309075000233
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598511188,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9230206598511188,
+      "time": 166.15386000000237
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598511014,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.4614821598511014,
+      "time": 167.0769370000024
+    },
+    {
+      "chord_name": null,
+      "duration": 0.23071290985112114,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.23071290985112114,
+      "time": 167.53847550000242
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598511014,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.4614821598511014,
+      "time": 167.76924475000246
+    },
+    {
+      "chord_name": null,
+      "duration": 0.23071290985112114,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.23071290985112114,
+      "time": 168.23078325000247
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598511014,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.4614821598511014,
+      "time": 168.4615525000025
+    },
+    {
+      "chord_name": null,
+      "duration": 0.6922514098511954,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.6922514098511954,
+      "time": 168.92309100000253
+    },
+    {
+      "chord_name": null,
+      "duration": 0.23071290985112114,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.23071290985112114,
+      "time": 169.61539875000264
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598511188,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9230206598511188,
+      "time": 169.84616800000268
+    },
+    {
+      "chord_name": null,
+      "duration": 0.6922514098511101,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.6922514098511101,
+      "time": 170.7692450000027
+    },
+    {
+      "chord_name": null,
+      "duration": 0.46148215985112984,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.46148215985112984,
+      "time": 171.46155275000274
+    },
+    {
+      "chord_name": null,
+      "duration": 0.23071290985112114,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.23071290985112114,
+      "time": 171.92309125000278
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598511757,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9230206598511757,
+      "time": 172.15386050000282
+    },
+    {
+      "chord_name": null,
+      "duration": 0.46148215985115826,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.46148215985115826,
+      "time": 173.0769375000029
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598511188,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9230206598511188,
+      "time": 173.538476000003
+    },
+    {
+      "chord_name": null,
+      "duration": 0.6922514098511101,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.6922514098511101,
+      "time": 174.46155300000302
+    },
+    {
+      "chord_name": null,
+      "duration": 0.46148215985112984,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.46148215985112984,
+      "time": 175.15386075000305
+    },
+    {
+      "chord_name": null,
+      "duration": 0.23071290985112114,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.23071290985112114,
+      "time": 175.6153992500031
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598511757,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9230206598511757,
+      "time": 175.84616850000313
+    },
+    {
+      "chord_name": null,
+      "duration": 0.46148215985115826,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.46148215985115826,
+      "time": 176.76924550000322
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598511188,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.9230206598511188,
+      "time": 177.2307840000033
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598511014,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.4614821598511014,
+      "time": 178.15386100000333
+    },
+    {
+      "chord_name": null,
+      "duration": 0.23071290985112114,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.23071290985112114,
+      "time": 178.61539950000335
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598511014,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.4614821598511014,
+      "time": 178.8461687500034
+    },
+    {
+      "chord_name": null,
+      "duration": 0.23071290985112114,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.23071290985112114,
+      "time": 179.3077072500034
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598511014,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.4614821598511014,
+      "time": 179.53847650000344
+    },
+    {
+      "chord_name": null,
+      "duration": 0.6922514098511954,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.6922514098511954,
+      "time": 180.00001500000346
+    },
+    {
+      "chord_name": null,
+      "duration": 0.23071290985112114,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.23071290985112114,
+      "time": 180.69232275000357
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598511188,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9230206598511188,
+      "time": 180.9230920000036
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598511014,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.4614821598511014,
+      "time": 181.84616900000364
+    },
+    {
+      "chord_name": null,
+      "duration": 0.23071290985112114,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.23071290985112114,
+      "time": 182.30770750000366
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598511014,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.4614821598511014,
+      "time": 182.5384767500037
+    },
+    {
+      "chord_name": null,
+      "duration": 0.23071290985112114,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.23071290985112114,
+      "time": 183.0000152500037
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598511014,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.4614821598511014,
+      "time": 183.23078450000375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.6922514098511954,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.6922514098511954,
+      "time": 183.69232300000377
+    },
+    {
+      "chord_name": null,
+      "duration": 0.23071290985112114,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.23071290985112114,
+      "time": 184.38463075000388
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598511188,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9230206598511188,
+      "time": 184.61540000000392
+    },
+    {
+      "chord_name": null,
+      "duration": 0.6922514098511101,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.6922514098511101,
+      "time": 185.53847700000395
+    },
+    {
+      "chord_name": null,
+      "duration": 0.46148215985112984,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.46148215985112984,
+      "time": 186.23078475000398
+    },
+    {
+      "chord_name": null,
+      "duration": 0.23071290985112114,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.23071290985112114,
+      "time": 186.69232325000402
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598511757,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9230206598511757,
+      "time": 186.92309250000406
+    },
+    {
+      "chord_name": null,
+      "duration": 0.46148215985115826,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.46148215985115826,
+      "time": 187.84616950000415
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598511188,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9230206598511188,
+      "time": 188.30770800000423
+    },
+    {
+      "chord_name": null,
+      "duration": 0.6922514098511101,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.6922514098511101,
+      "time": 189.23078500000426
+    },
+    {
+      "chord_name": null,
+      "duration": 0.46148215985112984,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.46148215985112984,
+      "time": 189.9230927500043
+    },
+    {
+      "chord_name": null,
+      "duration": 0.23071290985112114,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.23071290985112114,
+      "time": 190.38463125000433
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598511757,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9230206598511757,
+      "time": 190.61540050000437
+    },
+    {
+      "chord_name": null,
+      "duration": 0.46148215985115826,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.46148215985115826,
+      "time": 191.53847750000446
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598511188,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.9230206598511188,
+      "time": 192.00001600000454
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598511014,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.4614821598511014,
+      "time": 192.92309300000457
+    },
+    {
+      "chord_name": null,
+      "duration": 0.23071290985112114,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.23071290985112114,
+      "time": 193.3846315000046
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598511014,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.4614821598511014,
+      "time": 193.61540075000462
+    },
+    {
+      "chord_name": null,
+      "duration": 0.23071290985112114,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.23071290985112114,
+      "time": 194.07693925000464
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598511014,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.4614821598511014,
+      "time": 194.30770850000468
+    },
+    {
+      "chord_name": null,
+      "duration": 0.6922514098511954,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.6922514098511954,
+      "time": 194.7692470000047
+    },
+    {
+      "chord_name": null,
+      "duration": 0.23071290985112114,
+      "notes": [
+        {
+          "fret": 13,
+          "string": 0
+        },
+        {
+          "fret": 22,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.23071290985112114,
+      "time": 195.4615547500048
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598511188,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9230206598511188,
+      "time": 195.69232400000485
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598511014,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.4614821598511014,
+      "time": 196.61540100000488
+    },
+    {
+      "chord_name": null,
+      "duration": 0.23071290985112114,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.23071290985112114,
+      "time": 197.0769395000049
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598511014,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.4614821598511014,
+      "time": 197.30770875000493
+    },
+    {
+      "chord_name": null,
+      "duration": 0.23071290985112114,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.23071290985112114,
+      "time": 197.76924725000495
+    },
+    {
+      "chord_name": null,
+      "duration": 0.4614821598511014,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.4614821598511014,
+      "time": 198.000016500005
+    },
+    {
+      "chord_name": null,
+      "duration": 0.6922514098511954,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.6922514098511954,
+      "time": 198.461555000005
+    },
+    {
+      "chord_name": null,
+      "duration": 0.23071290985112114,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.23071290985112114,
+      "time": 199.15386275000512
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598511188,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9230206598511188,
+      "time": 199.38463200000515
+    },
+    {
+      "chord_name": null,
+      "duration": 0.6922514098511101,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.6922514098511101,
+      "time": 200.3077090000052
+    },
+    {
+      "chord_name": null,
+      "duration": 0.46148215985112984,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.46148215985112984,
+      "time": 201.00001675000522
+    },
+    {
+      "chord_name": null,
+      "duration": 0.23071290985112114,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.23071290985112114,
+      "time": 201.46155525000526
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598511757,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9230206598511757,
+      "time": 201.6923245000053
+    },
+    {
+      "chord_name": null,
+      "duration": 0.46148215985115826,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.46148215985115826,
+      "time": 202.6154015000054
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598511188,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9230206598511188,
+      "time": 203.07694000000546
+    },
+    {
+      "chord_name": null,
+      "duration": 0.6922514098511101,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.6922514098511101,
+      "time": 204.0000170000055
+    },
+    {
+      "chord_name": null,
+      "duration": 0.46148215985112984,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.46148215985112984,
+      "time": 204.69232475000553
+    },
+    {
+      "chord_name": null,
+      "duration": 0.23071290985112114,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.23071290985112114,
+      "time": 205.15386325000557
+    },
+    {
+      "chord_name": null,
+      "duration": 0.9230206598511757,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.9230206598511757,
+      "time": 205.3846325000056
+    },
+    {
+      "chord_name": null,
+      "duration": 0.46148215985115826,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.46148215985115826,
+      "time": 206.3077095000057
+    }
+  ],
+  "initial_tempo": 64.99999237060547,
+  "lesson_mode": false,
+  "name": "ivoxygen-I wish I had a home-04-14-2025",
+  "time_signature": [
+    4,
+    4
+  ],
+  "tuning": [
+    82.41000366210938,
+    110.0,
+    146.8300018310547,
+    196.0,
+    246.94000244140625,
+    329.6300048828125
+  ]
+}

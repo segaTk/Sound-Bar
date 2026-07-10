@@ -1,0 +1,295 @@
+# lessons/en.toml
+
+section_title = "Guitar Lessons"
+
+[[lessons]]
+id          = "tuning"
+title       = "Tuning the Guitar"
+description = "Standard tuning E A D G B E and how to check with a tuner"
+image       = "lessons/img/tuning_pegs.png"
+ 
+  [[lessons.steps]]
+  text = "Standard tuning (6th to 1st string): E2 — A2 — D3 — G3 — B3 — E4.\nMnemonic: \"Eddie Ate Dynamite, Good Bye Eddie\"."
+ 
+    [[lessons.steps.images]]
+    path    = "lessons/img/tuning_pegs.png"
+    x       = 0.56
+    y       = 0.15
+    w       = 0.36
+    alpha   = 1.0
+    z_order = 0
+ 
+  [[lessons.steps]]
+  text = "Open the Tuner — it will detect the pitch of the string you play. Pluck the 6th (thickest) string; the tuner should show E2 (~82 Hz)."
+ 
+    [[lessons.steps.links]]
+    label  = "Open Tuner"
+    target = "tuner"
+ 
+    [[lessons.steps.images]]
+    path    = "lessons/img/tuning_pegs.png"
+    x       = 0.60
+    y       = 0.20
+    w       = 0.28
+    alpha   = 0.80
+    z_order = 0
+ 
+  [[lessons.steps]]
+  text = "If the needle drifts left — the string is flat; tighten the peg clockwise. Right — loosen it. Aim for center."
+ 
+  [[lessons.steps]]
+  text = "Repeat for each string:\n  A2  — 110 Hz\n  D3  — 147 Hz\n  G3  — 196 Hz\n  B3  — 247 Hz\n  E4  — 330 Hz"
+ 
+[[lessons]]
+id          = "practice_mode"
+title       = "Practice Mode"
+description = "How to use the game / practice mode"
+ 
+  [[lessons.steps]]
+  text = "In Practice mode, notes fly right-to-left into the HIT ZONE. Play the correct note on your guitar — the microphone detects the pitch and counts a hit."
+ 
+    [[lessons.steps.links]]
+    label  = "Go to Practice"
+    target = "practice"
+ 
+  [[lessons.steps]]
+  text = "Controls:\n  M — microphone\n  S / W — speed (−/+)\n  P — pause\n  Z — auto-play\n  Esc — statistics"
+
+  [[lessons.steps]]
+  text = "Sit on a chair with your back straight. Rest the guitar's cutaway on your right thigh (for right-handers). The body tilts slightly toward you."
+
+    [[lessons.steps.images]]
+    path    = "lessons/img/posture_sit.png"
+    x       = 0.55
+    y       = 0.14
+    w       = 0.38
+    alpha   = 1.0
+    z_order = 0
+
+  [[lessons.steps]]
+  text = "The left hand wraps around the neck from below: thumb behind the middle of the neck, fingers hovering above the strings. The wrist must not touch the bottom edge of the neck."
+
+    [[lessons.steps.images]]
+    path    = "lessons/img/posture_sit.png"
+    x       = 0.56
+    y       = 0.14
+    w       = 0.20
+    alpha   = 0.60
+    z_order = 0
+
+    [[lessons.steps.images]]
+    path    = "lessons/img/posture_hand.png"
+    x       = 0.57
+    y       = 0.38
+    w       = 0.36
+    alpha   = 1.0
+    z_order = 1
+
+  [[lessons.steps]]
+  text = "The right hand rests freely on the body. Hold the pick between thumb and index finger at a 45° angle to the strings."
+
+    [[lessons.steps.images]]
+    path    = "lessons/img/posture_hand.png"
+    x       = 0.58
+    y       = 0.18
+    w       = 0.34
+    alpha   = 0.95
+    z_order = 0
+
+[[lessons]]
+id          = "tuning"
+title       = "Tuning the Guitar"
+description = "Standard tuning E A D G B E and how to check with a tuner"
+image       = "lessons/img/tuning_pegs.png"
+
+  [[lessons.steps]]
+  text = "Standard tuning (6th string to 1st): E2 — A2 — D3 — G3 — B3 — E4.\nMnemonic: \"Eddie Ate Dynamite, Good Bye Eddie\"."
+
+    [[lessons.steps.images]]
+    path    = "lessons/img/tuning_pegs.png"
+    x       = 0.56
+    y       = 0.15
+    w       = 0.36
+    alpha   = 1.0
+    z_order = 0
+
+  [[lessons.steps]]
+  text = "Open the Tuner in the app (TUNER button in the song menu). Pluck the 6th (thickest) string — the tuner should display E2 (~82 Hz)."
+
+    [[lessons.steps.images]]
+    path    = "lessons/img/tuning_pegs.png"
+    x       = 0.60
+    y       = 0.20
+    w       = 0.28
+    alpha   = 0.80
+    z_order = 0
+
+  [[lessons.steps]]
+  text = "If the needle drifts left — the string is flat; tighten the peg clockwise. Right — loosen it. Aim for center."
+
+  [[lessons.steps]]
+  text = "Repeat for each string:\n  A2  — 110 Hz\n  D3  — 147 Hz\n  G3  — 196 Hz\n  B3  — 247 Hz\n  E4  — 330 Hz"
+
+    [[lessons.steps.images]]
+    path    = "lessons/img/tuning_pegs.png"
+    x       = 0.58
+    y       = 0.16
+    w       = 0.32
+    alpha   = 0.90
+    z_order = 0
+
+[[lessons]]
+id          = "first_chords"
+title       = "First Chords: Em and Am"
+description = "The two simplest chords for beginners"
+image       = "lessons/img/em_chord.png"
+
+  [[lessons.steps]]
+  text = "Em chord (E minor): press string 5 at fret 2 with your middle finger, string 4 at fret 2 with your ring finger. All 6 strings ring."
+
+    [[lessons.steps.images]]
+    path    = "lessons/img/em_chord.png"
+    x       = 0.55
+    y       = 0.14
+    w       = 0.38
+    alpha   = 1.0
+    z_order = 0
+
+  [[lessons.steps]]
+  text = "Am chord (A minor): string 2 — fret 1 with index, string 3 — fret 2 with middle, string 4 — fret 2 with ring. Strings 1–5 ring; mute string 6."
+
+    [[lessons.steps.images]]
+    path    = "lessons/img/am_chord.png"
+    x       = 0.55
+    y       = 0.14
+    w       = 0.38
+    alpha   = 1.0
+    z_order = 0
+
+  [[lessons.steps]]
+  text = "Practice: switch Em → Am → Em repeatedly. Every note must ring clean — no muted or dead strings."
+
+    [[lessons.steps.images]]
+    path    = "lessons/img/em_chord.png"
+    x       = 0.54
+    y       = 0.16
+    w       = 0.20
+    alpha   = 0.95
+    z_order = 0
+
+    [[lessons.steps.images]]
+    path    = "lessons/img/am_chord.png"
+    x       = 0.76
+    y       = 0.16
+    w       = 0.20
+    alpha   = 0.95
+    z_order = 0
+
+[[lessons]]
+id          = "practice_mode"
+title       = "Practice Mode"
+description = "How to use the game / practice mode"
+
+  [[lessons.steps]]
+  text = "Choose \"Practice\" in the main menu → pick a song. Notes fly right-to-left and land in the HIT ZONE."
+
+  [[lessons.steps]]
+  text = "Play the correct note on your guitar. The microphone detects your pitch and counts a hit if you played at the right moment."
+
+  [[lessons.steps]]
+  text = "Controls:\n  M — choose microphone\n  S / W — speed (−/+)\n  P — pause\n  Z — auto-play\n  Esc — view statistics"
+
+# theory/ru.toml — Теоретическая база
+# Папочная структура:
+#   theory/
+#     ru.toml
+#     en.toml
+#     img/
+#       notes_staff.png
+#       intervals.png
+#       chords_theory.png
+
+section_title = "Музыкальная теория"
+
+[[lessons]]
+id          = "notes"
+title       = "Ноты и нотный стан"
+description = "Как читать ноты: скрипичный ключ, октавы, длительности"
+image       = "theory/img/notes_staff.png"
+
+  [[lessons.steps]]
+  text = "Нотный стан состоит из 5 линий. Ноты располагаются на линиях и между ними. Скрипичный ключ (свиток в начале) указывает, что нижняя линия — нота Ми первой октавы (E4)."
+
+    [[lessons.steps.images]]
+    path    = "theory/img/notes_staff.png"
+    x       = 0.54
+    y       = 0.16
+    w       = 0.40
+    alpha   = 1.0
+    z_order = 0
+
+  [[lessons.steps]]
+  text = "Семь нотных названий: До (C) — Ре (D) — Ми (E) — Фа (F) — Соль (G) — Ля (A) — Си (B). После Си снова идёт До, но на октаву выше."
+
+  [[lessons.steps]]
+  text = "Длительности нот:\n  Целая        = 4 удара\n  Половинная  = 2 удара\n  Четвертная  = 1 удар\n  Восьмая     = ½ удара\n  Шестнадцатая = ¼ удара"
+
+[[lessons]]
+id          = "intervals"
+title       = "Интервалы"
+description = "Расстояния между нотами: полутоны, тоны, основные интервалы"
+image       = "theory/img/intervals.png"
+
+  [[lessons.steps]]
+  text = "Интервал — расстояние между двумя нотами. Наименьший интервал в западной музыке — полутон (один лад на гитаре). Два полутона = один тон."
+
+    [[lessons.steps.images]]
+    path    = "theory/img/intervals.png"
+    x       = 0.55
+    y       = 0.15
+    w       = 0.38
+    alpha   = 1.0
+    z_order = 0
+
+  [[lessons.steps]]
+  text = "Основные интервалы от ноты C:\n  Прима     = C–C  (0 полутонов)\n  Секунда   = C–D  (2)\n  Терция    = C–E  (4)\n  Кварта    = C–F  (5)\n  Квинта    = C–G  (7)\n  Секста    = C–A  (9)\n  Септима   = C–B  (11)\n  Октава    = C–C' (12)"
+
+  [[lessons.steps]]
+  text = "На гитаре: каждый лад = 1 полутон. Значит квинта (7 полутонов) от открытой 6-й струны (E2) — нота H (B2) на 7-м ладу той же струны."
+
+[[lessons]]
+id          = "chords_theory"
+title       = "Строение аккордов"
+description = "Трезвучия мажор/минор, септаккорды, обращения"
+image       = "theory/img/chords_theory.png"
+
+  [[lessons.steps]]
+  text = "Аккорд — три и более ноты, звучащие одновременно. Трезвучие строится по терциям: основная нота + большая терция + малая терция = мажор."
+
+    [[lessons.steps.images]]
+    path    = "theory/img/chords_theory.png"
+    x       = 0.55
+    y       = 0.14
+    w       = 0.38
+    alpha   = 1.0
+    z_order = 0
+
+  [[lessons.steps]]
+  text = "Мажорное трезвучие C (до мажор): C – E – G (полутоны: +4, +3).\nМинорное трезвучие Am (ля минор): A – C – E (полутоны: +3, +4).\nРазница — в порядке терций."
+
+  [[lessons.steps]]
+  text = "Септаккорд = трезвучие + ещё одна терция. Доминантовый септаккорд G7: G – B – D – F (полутоны: +4, +3, +3). Создаёт напряжение, требующее разрешения."
+
+[[lessons]]
+id          = "rhythm"
+title       = "Ритм и метр"
+description = "Такты, доли, размеры 4/4 и 3/4"
+
+  [[lessons.steps]]
+  text = "Метр — повторяющаяся пульсация. Такт делится на равные доли. Размер 4/4 означает: 4 четвертные ноты в такте. Это самый распространённый размер в рок, поп и джазе."
+
+  [[lessons.steps]]
+  text = "Размер 3/4 (вальс): 3 четвертные ноты в такте. Первая доля сильная, остальные слабые. Счёт: РАЗ-два-три, РАЗ-два-три."
+
+  [[lessons.steps]]
+  text = "Синкопа — акцент на слабую долю. Вместо «РАЗ-два-ТРИ-четыре» — «раз-ДВА-три-ЧЕТЫРЕ». Широко используется в джазе, фанке и рок-музыке."

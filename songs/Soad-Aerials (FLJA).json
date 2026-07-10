@@ -1,0 +1,9768 @@
+{
+  "events": [
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 3,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 0.0
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 0.1875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 0.375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 2,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 0.5625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 0.75
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 0.9375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 1.125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 1.3125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 1.5
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 1.6875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 1.875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 2.0625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 2.25
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 2.4375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 2.625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 2.8125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 3.0
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 3.1875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 3.375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 3,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 3.5625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 3.75
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 3.9375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 2,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 4.125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 4.3125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 4.5
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 2,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 4.6875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 4.875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 5.0625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 2,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 5.25
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 5.4375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 5.625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 2,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 5.8125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 3,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 6.0
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 6.1875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 6.375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 6.5625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 6.75
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 6.9375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 7,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 7.125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 7.3125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 7.5
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 8,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 7.6875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 7.875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 8.0625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 7,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 8.25
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 8.4375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 8.625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 8.8125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 3,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 9.0
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 9.1875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 9.375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 2,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 9.5625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 9.75
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 9.9375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 10.125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 10.3125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 10.5
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 10.6875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 10.875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 11.0625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 11.25
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 11.4375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 11.625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 11.8125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 12,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 12.0
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 12.1875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 12.375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 12.5625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 12.75
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 12.9375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 7,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 13.125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 13.3125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 13.5
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 7,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 13.6875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 13.875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 14.0625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 7,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 14.25
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 14.4375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 14.625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 7,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 14.8125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 14,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 15.0
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 15.1875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 15.375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 15.5625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 15.75
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 15.9375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 7,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 16.125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 16.3125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 16.5
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 7,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 16.6875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 16.875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 17.0625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 7,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 17.25
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 17.4375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 17.625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 7,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 17.8125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 12,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 18.0
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 18.1875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 18.375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 14,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 18.5625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.375,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.375,
+      "time": 18.75
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 15,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 19.125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 19.3125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 19.5
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 17,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 19.6875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.375,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.375,
+      "time": 19.875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.375,
+      "notes": [
+        {
+          "fret": 15,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.375,
+      "time": 20.25
+    },
+    {
+      "chord_name": null,
+      "duration": 0.375,
+      "notes": [
+        {
+          "fret": 14,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.375,
+      "time": 20.625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 12,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 21.0
+    },
+    {
+      "chord_name": null,
+      "duration": 0.375,
+      "notes": [
+        {
+          "fret": 12,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.375,
+      "time": 21.1875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 10,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 21.5625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.375,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.375,
+      "time": 21.75
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 12,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 22.125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 22.3125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 25.125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.375,
+      "notes": [
+        {
+          "fret": 12,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.375,
+      "time": 25.3125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.375,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.375,
+      "time": 25.6875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.375,
+      "notes": [
+        {
+          "fret": 12,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.375,
+      "time": 26.0625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 12,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 26.4375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 26.625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 12,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 26.8125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 12,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 27.0
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 27.1875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 12,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 27.375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 12,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 27.5625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 27.75
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 12,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 27.9375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.375,
+      "notes": [
+        {
+          "fret": 12,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.375,
+      "time": 28.125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.375,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.375,
+      "time": 28.5
+    },
+    {
+      "chord_name": null,
+      "duration": 0.375,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.375,
+      "time": 28.875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 3,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 71.25
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 71.4375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 71.625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 2,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 71.8125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 72.0
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 72.1875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 72.375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 72.5625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 72.75
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 72.9375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 73.125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 73.3125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 73.5
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 73.6875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 73.875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 74.0625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 74.25
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 74.4375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 74.625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 3,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 74.8125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 75.0
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 75.1875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 2,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 75.375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 75.5625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 75.75
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 2,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 75.9375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 76.125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 76.3125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 2,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 76.5
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 76.6875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 76.875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 2,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 77.0625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 3,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 77.25
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 77.4375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 77.625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 77.8125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 78.0
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 78.1875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 7,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 78.375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 78.5625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 78.75
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 8,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 78.9375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 79.125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 79.3125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 7,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 79.5
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 79.6875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 79.875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 80.0625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 3,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 80.25
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 80.4375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 80.625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 2,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 80.8125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 81.0
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 81.1875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 81.375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 81.5625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 81.75
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 81.9375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 82.125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 82.3125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 82.5
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 82.6875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 82.875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 83.0625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 3,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 83.25
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 83.4375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 83.625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 2,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 83.8125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 84.0
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 84.1875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 84.375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 84.5625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 84.75
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 84.9375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 85.125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 85.3125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 85.5
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 85.6875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 85.875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 86.0625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 86.25
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 86.4375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 86.625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 3,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 86.8125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 87.0
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 87.1875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 2,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 87.375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 87.5625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 87.75
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 2,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 87.9375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 88.125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 88.3125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 2,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 88.5
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 88.6875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 88.875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 2,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 89.0625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 3,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 89.25
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 89.4375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 89.625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 89.8125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 90.0
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 90.1875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 7,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 90.375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 90.5625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 90.75
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 8,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 90.9375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 91.125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 91.3125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 7,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 91.5
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 91.6875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 91.875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 92.0625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 3,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 92.25
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 92.4375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 92.625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 2,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 92.8125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 93.0
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 93.1875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 93.375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 93.5625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.375,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.375,
+      "time": 94.875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 4
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 95.25
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 3
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 95.4375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 4
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 95.625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 3
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 95.8125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 4
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 96.0
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 3
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 96.1875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 96.375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 96.5625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 96.75
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 96.9375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 97.125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 97.3125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 3,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 181.5
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 181.6875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 181.875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 2,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 182.0625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 182.25
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 182.4375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 182.625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 182.8125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 183.0
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 183.1875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 183.375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 183.5625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 183.75
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 183.9375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 184.125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 184.3125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 184.5
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 184.6875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 184.875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 3,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 185.0625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 185.25
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 185.4375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 2,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 185.625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 185.8125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 186.0
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 2,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 186.1875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 186.375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 186.5625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 2,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 186.75
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 186.9375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 187.125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 2,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 187.3125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 3,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 187.5
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 187.6875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 187.875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 188.0625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 188.25
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 188.4375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 7,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 188.625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 188.8125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 189.0
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 8,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 189.1875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 189.375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 189.5625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 7,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 189.75
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 189.9375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 190.125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 190.3125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 3,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 190.5
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 190.6875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 190.875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 2,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 191.0625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 191.25
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 191.4375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 191.625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 191.8125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 192.0
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 192.1875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 192.375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 192.5625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 192.75
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 192.9375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 193.125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 193.3125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 3,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 193.5
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 193.6875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 193.875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 2,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 194.0625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 194.25
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 194.4375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 194.625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 194.8125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 195.0
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 195.1875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 195.375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 195.5625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 195.75
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 195.9375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 196.125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 196.3125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 196.5
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 196.6875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 196.875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 3,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 197.0625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 197.25
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 197.4375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 2,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 197.625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 197.8125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 198.0
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 2,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 198.1875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 198.375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 198.5625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 2,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 198.75
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 198.9375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 199.125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 2,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 199.3125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 3,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 199.5
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 199.6875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 199.875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 200.0625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 200.25
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 200.4375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 7,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 200.625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 200.8125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 201.0
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 8,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 201.1875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 201.375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 201.5625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 7,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 201.75
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 201.9375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 202.125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 202.3125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 3,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 202.5
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 202.6875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 202.875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 2,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 203.0625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 203.25
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 203.4375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 203.625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 203.8125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 204.0
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 204.1875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 204.375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 204.5625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 204.75
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 204.9375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 205.125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 205.3125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 3,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 205.5
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 205.6875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 205.875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 2,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 206.0625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 206.25
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 206.4375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 206.625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 206.8125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 207.0
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 207.1875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 207.375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 207.5625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 207.75
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 207.9375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 208.125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 208.3125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 208.5
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 208.6875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 208.875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 3,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 209.0625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 209.25
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 209.4375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 2,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 209.625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 209.8125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 210.0
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 2,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 210.1875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 210.375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 210.5625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 2,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 210.75
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 210.9375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 211.125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 2,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 211.3125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 3,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 211.5
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 211.6875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 211.875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 212.0625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 212.25
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 212.4375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 7,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 212.625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 212.8125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 213.0
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 8,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 213.1875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 213.375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 213.5625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 7,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 213.75
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 213.9375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 214.125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 214.3125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 3,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 214.5
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 214.6875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 214.875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 2,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 215.0625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 215.25
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 215.4375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 215.625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 215.8125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 216.0
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 216.1875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 216.375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 216.5625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 216.75
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 216.9375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 217.125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 217.3125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 3,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 217.5
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 217.6875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 217.875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 2,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 218.0625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 218.25
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 218.4375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 218.625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 218.8125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 219.0
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 219.1875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 219.375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 219.5625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 219.75
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 219.9375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 220.125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 220.3125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 220.5
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 220.6875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 220.875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 3,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 221.0625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 221.25
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 221.4375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 2,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 221.625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 221.8125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 222.0
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 2,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 222.1875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 222.375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 222.5625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 2,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 222.75
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 222.9375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 223.125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 2,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 223.3125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 3,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 223.5
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 223.6875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 223.875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 224.0625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 224.25
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 224.4375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 7,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 224.625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 224.8125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 225.0
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 8,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 225.1875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 225.375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 225.5625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 7,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 225.75
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 225.9375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 5,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 226.125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 226.3125
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 3,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 226.5
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 226.6875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 226.875
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 2,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 227.0625
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 1
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 227.25
+    },
+    {
+      "chord_name": null,
+      "duration": 0.1875,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 2
+        }
+      ],
+      "sound_duration": 0.1875,
+      "time": 227.4375
+    },
+    {
+      "chord_name": null,
+      "duration": 0.375,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 0.375,
+      "time": 227.625
+    },
+    {
+      "chord_name": null,
+      "duration": 1.5,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 1.5,
+      "time": 228.0
+    },
+    {
+      "chord_name": null,
+      "duration": 1.5,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 1.5,
+      "time": 229.5
+    },
+    {
+      "chord_name": null,
+      "duration": 1.5,
+      "notes": [
+        {
+          "fret": 0,
+          "string": 0
+        }
+      ],
+      "sound_duration": 1.5,
+      "time": 231.0
+    }
+  ],
+  "initial_tempo": 160.0,
+  "lesson_mode": false,
+  "name": "Soad-Aerials (FLJA)",
+  "notes": [
+    {
+      "duration": 0.1875,
+      "fret": 3,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 0.0
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 0.1875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 0.375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 2,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 0.5625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 0.75
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 0.9375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 1.125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 1.3125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 1.5
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 1.6875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 1.875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 2.0625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 2.25
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 2.4375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 2.625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 2.8125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 5,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 3.0
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 3.1875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 3.375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 3,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 3.5625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 3.75
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 3.9375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 2,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 4.125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 4.3125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 4.5
+    },
+    {
+      "duration": 0.1875,
+      "fret": 2,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 4.6875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 4.875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 5.0625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 2,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 5.25
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 5.4375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 5.625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 2,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 5.8125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 3,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 6.0
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 6.1875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 6.375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 5,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 6.5625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 6.75
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 6.9375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 7,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 7.125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 7.3125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 7.5
+    },
+    {
+      "duration": 0.1875,
+      "fret": 8,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 7.6875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 7.875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 8.0625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 7,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 8.25
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 8.4375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 5,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 8.625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 8.8125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 3,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 9.0
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 9.1875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 9.375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 2,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 9.5625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 9.75
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 9.9375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 10.125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 10.3125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 10.5
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 10.6875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 10.875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 11.0625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 11.25
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 11.4375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 11.625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 11.8125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 12,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 12.0
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 12.1875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 12.375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 10,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 12.5625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 12.75
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 12.9375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 7,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 13.125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 13.3125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 13.5
+    },
+    {
+      "duration": 0.1875,
+      "fret": 7,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 13.6875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 13.875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 14.0625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 7,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 14.25
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 14.4375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 14.625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 7,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 14.8125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 14,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 15.0
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 15.1875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 15.375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 10,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 15.5625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 15.75
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 15.9375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 7,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 16.125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 16.3125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 16.5
+    },
+    {
+      "duration": 0.1875,
+      "fret": 7,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 16.6875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 16.875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 17.0625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 7,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 17.25
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 17.4375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 17.625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 7,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 17.8125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 12,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 18.0
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 18.1875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 18.375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 14,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 18.5625
+    },
+    {
+      "duration": 0.375,
+      "fret": 0,
+      "sound_duration": 0.375,
+      "string": 1,
+      "time": 18.75
+    },
+    {
+      "duration": 0.1875,
+      "fret": 15,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 19.125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 19.3125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 19.5
+    },
+    {
+      "duration": 0.1875,
+      "fret": 17,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 19.6875
+    },
+    {
+      "duration": 0.375,
+      "fret": 0,
+      "sound_duration": 0.375,
+      "string": 1,
+      "time": 19.875
+    },
+    {
+      "duration": 0.375,
+      "fret": 15,
+      "sound_duration": 0.375,
+      "string": 0,
+      "time": 20.25
+    },
+    {
+      "duration": 0.375,
+      "fret": 14,
+      "sound_duration": 0.375,
+      "string": 0,
+      "time": 20.625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 12,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 21.0
+    },
+    {
+      "duration": 0.375,
+      "fret": 12,
+      "sound_duration": 0.375,
+      "string": 0,
+      "time": 21.1875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 10,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 21.5625
+    },
+    {
+      "duration": 0.375,
+      "fret": 0,
+      "sound_duration": 0.375,
+      "string": 1,
+      "time": 21.75
+    },
+    {
+      "duration": 0.1875,
+      "fret": 12,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 22.125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 22.3125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 25.125
+    },
+    {
+      "duration": 0.375,
+      "fret": 12,
+      "sound_duration": 0.375,
+      "string": 2,
+      "time": 25.3125
+    },
+    {
+      "duration": 0.375,
+      "fret": 0,
+      "sound_duration": 0.375,
+      "string": 1,
+      "time": 25.6875
+    },
+    {
+      "duration": 0.375,
+      "fret": 12,
+      "sound_duration": 0.375,
+      "string": 0,
+      "time": 26.0625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 12,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 26.4375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 26.625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 12,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 26.8125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 12,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 27.0
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 27.1875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 12,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 27.375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 12,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 27.5625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 27.75
+    },
+    {
+      "duration": 0.1875,
+      "fret": 12,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 27.9375
+    },
+    {
+      "duration": 0.375,
+      "fret": 12,
+      "sound_duration": 0.375,
+      "string": 2,
+      "time": 28.125
+    },
+    {
+      "duration": 0.375,
+      "fret": 0,
+      "sound_duration": 0.375,
+      "string": 1,
+      "time": 28.5
+    },
+    {
+      "duration": 0.375,
+      "fret": 0,
+      "sound_duration": 0.375,
+      "string": 0,
+      "time": 28.875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 3,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 71.25
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 71.4375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 71.625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 2,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 71.8125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 72.0
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 72.1875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 72.375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 72.5625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 72.75
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 72.9375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 73.125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 73.3125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 73.5
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 73.6875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 73.875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 74.0625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 5,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 74.25
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 74.4375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 74.625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 3,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 74.8125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 75.0
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 75.1875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 2,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 75.375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 75.5625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 75.75
+    },
+    {
+      "duration": 0.1875,
+      "fret": 2,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 75.9375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 76.125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 76.3125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 2,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 76.5
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 76.6875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 76.875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 2,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 77.0625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 3,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 77.25
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 77.4375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 77.625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 5,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 77.8125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 78.0
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 78.1875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 7,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 78.375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 78.5625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 78.75
+    },
+    {
+      "duration": 0.1875,
+      "fret": 8,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 78.9375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 79.125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 79.3125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 7,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 79.5
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 79.6875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 5,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 79.875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 80.0625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 3,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 80.25
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 80.4375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 80.625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 2,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 80.8125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 81.0
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 81.1875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 81.375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 81.5625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 81.75
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 81.9375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 82.125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 82.3125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 82.5
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 82.6875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 82.875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 83.0625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 3,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 83.25
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 83.4375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 83.625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 2,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 83.8125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 84.0
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 84.1875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 84.375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 84.5625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 84.75
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 84.9375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 85.125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 85.3125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 85.5
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 85.6875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 85.875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 86.0625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 5,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 86.25
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 86.4375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 86.625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 3,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 86.8125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 87.0
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 87.1875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 2,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 87.375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 87.5625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 87.75
+    },
+    {
+      "duration": 0.1875,
+      "fret": 2,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 87.9375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 88.125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 88.3125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 2,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 88.5
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 88.6875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 88.875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 2,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 89.0625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 3,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 89.25
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 89.4375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 89.625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 5,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 89.8125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 90.0
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 90.1875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 7,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 90.375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 90.5625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 90.75
+    },
+    {
+      "duration": 0.1875,
+      "fret": 8,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 90.9375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 91.125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 91.3125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 7,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 91.5
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 91.6875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 5,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 91.875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 92.0625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 3,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 92.25
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 92.4375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 92.625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 2,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 92.8125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 93.0
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 93.1875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 93.375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 93.5625
+    },
+    {
+      "duration": 0.375,
+      "fret": 0,
+      "sound_duration": 0.375,
+      "string": 2,
+      "time": 94.875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 4,
+      "time": 95.25
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 3,
+      "time": 95.4375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 4,
+      "time": 95.625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 3,
+      "time": 95.8125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 4,
+      "time": 96.0
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 3,
+      "time": 96.1875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 96.375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 96.5625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 96.75
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 96.9375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 97.125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 97.3125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 3,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 181.5
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 181.6875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 181.875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 2,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 182.0625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 182.25
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 182.4375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 182.625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 182.8125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 183.0
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 183.1875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 183.375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 183.5625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 183.75
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 183.9375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 184.125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 184.3125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 5,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 184.5
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 184.6875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 184.875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 3,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 185.0625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 185.25
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 185.4375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 2,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 185.625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 185.8125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 186.0
+    },
+    {
+      "duration": 0.1875,
+      "fret": 2,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 186.1875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 186.375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 186.5625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 2,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 186.75
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 186.9375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 187.125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 2,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 187.3125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 3,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 187.5
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 187.6875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 187.875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 5,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 188.0625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 188.25
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 188.4375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 7,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 188.625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 188.8125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 189.0
+    },
+    {
+      "duration": 0.1875,
+      "fret": 8,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 189.1875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 189.375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 189.5625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 7,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 189.75
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 189.9375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 5,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 190.125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 190.3125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 3,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 190.5
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 190.6875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 190.875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 2,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 191.0625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 191.25
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 191.4375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 191.625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 191.8125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 192.0
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 192.1875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 192.375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 192.5625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 192.75
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 192.9375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 193.125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 193.3125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 3,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 193.5
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 193.6875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 193.875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 2,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 194.0625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 194.25
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 194.4375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 194.625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 194.8125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 195.0
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 195.1875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 195.375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 195.5625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 195.75
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 195.9375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 196.125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 196.3125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 5,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 196.5
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 196.6875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 196.875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 3,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 197.0625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 197.25
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 197.4375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 2,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 197.625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 197.8125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 198.0
+    },
+    {
+      "duration": 0.1875,
+      "fret": 2,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 198.1875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 198.375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 198.5625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 2,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 198.75
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 198.9375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 199.125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 2,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 199.3125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 3,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 199.5
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 199.6875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 199.875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 5,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 200.0625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 200.25
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 200.4375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 7,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 200.625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 200.8125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 201.0
+    },
+    {
+      "duration": 0.1875,
+      "fret": 8,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 201.1875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 201.375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 201.5625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 7,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 201.75
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 201.9375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 5,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 202.125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 202.3125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 3,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 202.5
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 202.6875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 202.875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 2,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 203.0625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 203.25
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 203.4375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 203.625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 203.8125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 204.0
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 204.1875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 204.375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 204.5625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 204.75
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 204.9375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 205.125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 205.3125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 3,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 205.5
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 205.6875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 205.875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 2,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 206.0625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 206.25
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 206.4375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 206.625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 206.8125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 207.0
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 207.1875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 207.375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 207.5625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 207.75
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 207.9375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 208.125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 208.3125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 5,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 208.5
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 208.6875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 208.875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 3,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 209.0625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 209.25
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 209.4375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 2,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 209.625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 209.8125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 210.0
+    },
+    {
+      "duration": 0.1875,
+      "fret": 2,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 210.1875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 210.375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 210.5625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 2,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 210.75
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 210.9375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 211.125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 2,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 211.3125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 3,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 211.5
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 211.6875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 211.875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 5,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 212.0625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 212.25
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 212.4375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 7,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 212.625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 212.8125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 213.0
+    },
+    {
+      "duration": 0.1875,
+      "fret": 8,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 213.1875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 213.375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 213.5625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 7,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 213.75
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 213.9375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 5,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 214.125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 214.3125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 3,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 214.5
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 214.6875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 214.875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 2,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 215.0625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 215.25
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 215.4375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 215.625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 215.8125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 216.0
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 216.1875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 216.375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 216.5625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 216.75
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 216.9375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 217.125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 217.3125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 3,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 217.5
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 217.6875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 217.875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 2,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 218.0625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 218.25
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 218.4375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 218.625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 218.8125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 219.0
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 219.1875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 219.375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 219.5625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 219.75
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 219.9375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 220.125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 220.3125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 5,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 220.5
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 220.6875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 220.875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 3,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 221.0625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 221.25
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 221.4375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 2,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 221.625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 221.8125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 222.0
+    },
+    {
+      "duration": 0.1875,
+      "fret": 2,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 222.1875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 222.375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 222.5625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 2,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 222.75
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 222.9375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 223.125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 2,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 223.3125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 3,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 223.5
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 223.6875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 223.875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 5,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 224.0625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 224.25
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 224.4375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 7,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 224.625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 224.8125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 225.0
+    },
+    {
+      "duration": 0.1875,
+      "fret": 8,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 225.1875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 225.375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 225.5625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 7,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 225.75
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 225.9375
+    },
+    {
+      "duration": 0.1875,
+      "fret": 5,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 226.125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 226.3125
+    },
+    {
+      "duration": 0.1875,
+      "fret": 3,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 226.5
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 226.6875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 226.875
+    },
+    {
+      "duration": 0.1875,
+      "fret": 2,
+      "sound_duration": 0.1875,
+      "string": 0,
+      "time": 227.0625
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 1,
+      "time": 227.25
+    },
+    {
+      "duration": 0.1875,
+      "fret": 0,
+      "sound_duration": 0.1875,
+      "string": 2,
+      "time": 227.4375
+    },
+    {
+      "duration": 0.375,
+      "fret": 0,
+      "sound_duration": 0.375,
+      "string": 0,
+      "time": 227.625
+    },
+    {
+      "duration": 1.5,
+      "fret": 0,
+      "sound_duration": 1.5,
+      "string": 0,
+      "time": 228.0
+    },
+    {
+      "duration": 1.5,
+      "fret": 0,
+      "sound_duration": 1.5,
+      "string": 0,
+      "time": 229.5
+    },
+    {
+      "duration": 1.5,
+      "fret": 0,
+      "sound_duration": 1.5,
+      "string": 0,
+      "time": 231.0
+    }
+  ],
+  "time_signature": [
+    4,
+    4
+  ],
+  "tuning": [
+    82.4068832397461,
+    110.0,
+    146.83238220214844,
+    195.9977264404297,
+    246.941650390625,
+    329.6275634765625
+  ]
+}
