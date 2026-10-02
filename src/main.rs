@@ -14,6 +14,8 @@ mod game_types;
 mod lesson_game;
 mod tuner_presets;
 mod midi_parser;
+mod midi_input;
+use midi_input::MidiInputController;
 
 use std::thread;
 use std::sync::mpsc;
@@ -40,7 +42,7 @@ use localization::Localization;
 use lessons::{LessonsFile, LessonsState};
 use info_screen::{InfoFile, InfoState, InfoPrefs};
 use theme::ThemeState;
-use game_types::{GameEvent, GameEventNote, GameNote};
+use game_types::{GameEvent, GameEventNote, GameNote, Instrument};
 use lesson_game::{LessonState, HintData, check_lesson_hit, should_freeze};
 use parser::{SongEvent, SongNote, ChordNote, NoteTechnique};
 use tuner_presets::{get_tunings, all_tunings, GuitarTuning}; 
@@ -115,6 +117,28 @@ pub fn get_note_name(freq: f32) -> String {
     let name = NOTE_NAMES[((idx + 12) % 12) as usize];
     let oct = ((st + 69.0) / 12.0).floor() as i32;
     format!("{}{}", name, oct)
+}
+
+/// Возвращает цвет для ноты по MIDI-номеру (радужная схема "rainbow notes").
+/// C=красный, D=оранжевый, E=жёлтый, F=зелёный, G=голубой, A=синий, B=фиолетовый.
+/// Для диезов/бемолов — промежуточный оттенок между соседними нотами.
+pub fn note_color_from_midi(midi_note: u8) -> Color {
+    let note_in_octave = midi_note % 12;
+    match note_in_octave {
+        0  => Color::new(0.95, 0.20, 0.20, 1.0),  // C  = красный
+        1  => Color::new(1.00, 0.55, 0.10, 1.0),  // C# = красно-оранжевый
+        2  => Color::new(1.00, 0.65, 0.15, 1.0),  // D  = оранжевый
+        3  => Color::new(1.00, 0.85, 0.20, 1.0),  // D# = жёлто-оранжевый
+        4  => Color::new(1.00, 0.95, 0.25, 1.0),  // E  = жёлтый
+        5  => Color::new(0.30, 0.85, 0.30, 1.0),  // F  = зелёный
+        6  => Color::new(0.20, 0.75, 0.60, 1.0),  // F# = сине-зелёный
+        7  => Color::new(0.30, 0.80, 0.95, 1.0),  // G  = голубой
+        8  => Color::new(0.25, 0.55, 0.95, 1.0),  // G# = сине-голубой
+        9  => Color::new(0.20, 0.30, 0.95, 1.0),  // A  = синий
+        10 => Color::new(0.55, 0.30, 0.90, 1.0),  // A# = сине-фиолетовый
+        11 => Color::new(0.70, 0.30, 0.95, 1.0),  // B  = фиолетовый
+        _  => Color::new(0.80, 0.80, 0.80, 1.0),
+    }
 }
 
 // Для draw_notation_track / draw_tab_track (принимают &[GameNote])
@@ -235,6 +259,7 @@ pub enum PreStartPhase {
 }
 
 pub struct GameState {
+    pub instrument: Instrument,
     /// Летящие события (каждое может быть аккордом).
     pub events: Vec<GameEvent>,
     /// Плоский список для draw_notation_track / draw_tab_track.
@@ -284,6 +309,7 @@ pub struct GameState {
     /// Текущая подсказка (обновляется lesson_tick).
     pub lesson_hint: Option<HintData>,
     pub layout: config::CalculatedLayout,
+    pub midi_data: Option<Arc<Mutex<midi_input::MidiData>>>,
 }
 
 // ─── Вспомогательные типы игровой логики ─────────────────────────────────────
@@ -862,10 +888,12 @@ impl MicController {
 // ─── IMPL GameState ───────────────────────────────────────────────────────────
 
 impl GameState {
-    async fn new(output: Arc<Mutex<OutputController>>, song: &Song, lang_ru: bool, layout: config::CalculatedLayout,) -> Self {
+    async fn new(output: Arc<Mutex<OutputController>>, song: &Song, lang_ru: bool, layout: config::CalculatedLayout, instrument: Instrument) -> Self {
         let mut song_data = song.events.clone();
         song_data.sort_by(|a, b| a.time.partial_cmp(&b.time).unwrap_or(std::cmp::Ordering::Equal));
         Self {
+            instrument,
+            midi_data: None,
             events: Vec::new(), notes_compat: Vec::new(), particles: Vec::new(),
             score: 0, combo: 0, max_combo: 0,
             song_data, song_time: 0.0, last_spawn_idx: 0,
@@ -888,6 +916,7 @@ impl GameState {
             lesson_hint: None,
             layout,
             pre_start: PreStartPhase::Confirm,
+            
         }
     }
 
@@ -1019,13 +1048,20 @@ impl GameState {
         // Совместимость со старыми draw-функциями
         self.notes_compat = self.events.iter().flat_map(|ev| {
             ev.notes.iter().map(|n| GameNote {
-                string_idx: n.string_idx, fret: n.fret,
-                y: n.y, x: ev.y,
-                target_time: ev.target_time, duration: ev.duration,
+                string_idx: n.string_idx,
+                fret: n.fret,
+                midi_note: n.midi_note, // <-- ДОБАВЛЕНО
+                y: n.y,
+                x: ev.y,
+                target_time: ev.target_time,
+                duration: ev.duration,
                 sound_duration: ev.sound_duration,
-                hit: ev.hit, missed: ev.missed,
-                color: n.color, note_name: n.note_name.clone(),
-                pitch_step: n.pitch_step, technique: ev.technique.clone(),
+                hit: ev.hit,
+                missed: ev.missed,
+                color: n.color,
+                note_name: n.note_name.clone(),
+                pitch_step: n.pitch_step,
+                technique: ev.technique.clone(),
             })
         }).collect();
 
@@ -1068,7 +1104,7 @@ impl GameState {
         while self.last_spawn_idx < self.song_data.len() {
             let ev = &self.song_data[self.last_spawn_idx];
             if self.song_time >= ev.time - travel {
-                self.events.push(GameEvent::from_song_event(ev, &self.tuning, self.song_time, self.speed_index, &self.layout, ));
+                self.events.push(GameEvent::from_song_event(ev, &self.tuning, self.song_time, self.speed_index, &self.layout, self.instrument,));
                 self.last_spawn_idx += 1;
             } else { break; }
         }
@@ -1137,6 +1173,77 @@ impl GameState {
         result
     }
 
+    /// Проверяет попадание ноты через MIDI-клавиатуру.
+    /// Вызывается вместо check_microphone_hit когда подключена MIDI-клавиатура.
+    fn check_midi_hit(&mut self) {
+        if self.paused || self.lesson_mode { return; }
+        
+        let midi_data = match &self.midi_data {
+            Some(d) => d,
+            None => {
+                eprintln!("⚠️ check_midi_hit: midi_data is None!");
+                return;
+            }
+        };
+        
+        let mut md = match midi_data.lock() {
+            Ok(d) => d,
+            Err(_) => return,
+        };
+        
+        let pressed_note = match md.consume_press() {
+            Some(n) => {
+                let freq = 440.0 * 2.0_f32.powf((n as f32 - 69.0) / 12.0);
+                let name = crate::get_note_name(freq);
+                eprintln!("🎵 MIDI note pressed: {} ({} Hz)", name, freq);
+                n
+            },
+            None => return,
+        };
+        drop(md); // освобождаем мьютекс перед мутацией events
+
+        // Ищем событие в зоне попадания с совпадающей MIDI-нотой.
+        // Сохраняем данные для спавна частиц в локальные переменные,
+        // чтобы не конфликтовать с borrow checker при вызове spawn_particles.
+        let mut hit_info: Option<(f32, f32, Color)> = None;
+
+        for ev in &mut self.events {
+            if ev.hit || ev.missed { continue; }
+            if (ev.y - HIT_ZONE_Y).abs() > HIT_TOLERANCE { continue; }
+
+            for note in &mut ev.notes {
+                if note.midi_note == pressed_note {
+                    note.confirmed = true;
+                    if !ev.hit {
+                        ev.hit = true;
+                        self.flash_timer = 0.15;
+                        self.flash_color = note.color;
+                        self.score += 100 * ((self.combo / 10 + 1) as u32).min(5);
+                        self.combo += 1;
+                        self.max_combo = self.max_combo.max(self.combo);
+                        self.last_hit_time = self.song_time;
+                        self.current_playing_freq = Some(note.freq);
+
+                        // Вычисляем координаты клавиши пианино для спавна частиц
+                        let piano_h = 180.0_f32;
+                        let piano_y = self.layout.window_h - 82.0 - 10.0 - piano_h;
+                        let (kx, ky, kw, kh) = graphics::get_piano_key_rect_game(
+                            note.midi_note, 0.0, piano_y, self.layout.window_w, piano_h
+                        );
+                        hit_info = Some((kx + kw / 2.0, ky + kh * 0.5, note.color));
+                    }
+                    break;
+                }
+            }
+            if hit_info.is_some() { break; }
+        }
+
+        // Спавн частиц — вызываем ПОСЛЕ выхода из заимствования self.events
+        if let Some((px, py, color)) = hit_info {
+            self.spawn_particles(px, py, color);
+        }
+    }
+
     /// Проверка попаданий микрофона в обычном режиме.
     fn check_microphone_hit(&mut self) {
         if self.paused || self.lesson_mode { return; }
@@ -1157,7 +1264,11 @@ impl GameState {
         let mut candidates: Vec<(usize, usize, f32, f32)> = Vec::new(); // (ei, si, smoothed, ef)
         for (ei, ev) in self.events.iter().enumerate() {
             if ev.hit || ev.missed { continue; }
-            if (ev.y - PLAYHEAD_X).abs() > HIT_TOLERANCE { continue; }
+            
+            // ─── Используем HIT_ZONE_Y вместо PLAYHEAD_X ───
+            if (ev.y - HIT_ZONE_Y).abs() > HIT_TOLERANCE { continue; }
+            // ──────────────────────────────────────────────────────────
+            
             for n in &ev.notes {
                 let corr = correct_octave_error(smoothed, n.freq);
                 if (corr - n.freq).abs() < get_freq_tolerance(n.freq) {
@@ -1412,6 +1523,8 @@ async fn main() {
 
     let mut sl = SongLoader::new();
     let mut mc = MicController::new();
+    let mut midi_ctrl = MidiInputController::new();
+
     if mc.host.input_devices().map(|d| d.count()).unwrap_or(0) > 0 {
         let _ = mc.start_stream_with_device_index(0);
     }
@@ -1498,6 +1611,8 @@ async fn main() {
     let mut tuner_rename_buffer: String = String::new();
     let mut tuner_rename_cursor: usize = 0;
     let mut tuner_rename_selection: Option<(usize, usize)> = None;
+     let mut practice_module = graphics::PracticeModuleChoice::Guitar;
+
 
     use tuner_presets::get_tunings;
     let  tuner_tunings = get_tunings();
@@ -1655,8 +1770,17 @@ async fn main() {
                     LessonsPanelResult::PlaySong(ref path) => {
                         let sp = path.trim_start_matches('/').to_string();
                         match sl.load_single_song(&sp) {
-                            Ok(song) => { push_nav!(); tuner_output.stop_playback(); let mut ns = GameState::new(output_arc.clone(), &song, lang_ru, layout.clone()).await; ns.audio_data = mc.get_audio_state(); game_state = Some(ns); game_from_lesson = true; app_state = AppState::Game; }
-                            Err(e)   => eprintln!("Cannot load lesson song '{}': {}", sp, e),
+                            Ok(song) => { 
+                                push_nav!(); 
+                                tuner_output.stop_playback(); 
+                                // ДОБАВЛЕНО: Instrument::Guitar
+                                let mut ns = GameState::new(output_arc.clone(), &song, lang_ru, layout.clone(), Instrument::Guitar).await; 
+                                ns.audio_data = mc.get_audio_state(); 
+                                game_state = Some(ns); 
+                                game_from_lesson = true; 
+                                app_state = AppState::Game; 
+                            }
+                            Err(e) => eprintln!("Cannot load lesson song '{}': {}", sp, e),
                         }
                     }
                     LessonsPanelResult::None => { if bv { lessons_state = LessonsState::new(); app_state = pop_nav!(AppState::MainMenu); } }
@@ -1968,8 +2092,15 @@ async fn main() {
                     LessonsPanelResult::PlaySong(ref path) => {
                         let sp = path.trim_start_matches('/').to_string();
                         match sl.load_single_song(&sp) {
-                            Ok(song) => { push_nav!(); tuner_output.stop_playback(); let mut ns = GameState::new(output_arc.clone(), &song, lang_ru, layout.clone()).await; ns.audio_data = mc.get_audio_state(); game_state = Some(ns); app_state = AppState::Game; }
-                            Err(e)   => eprintln!("Cannot load theory song '{}': {}", sp, e),
+                            Ok(song) => { 
+                                push_nav!(); 
+                                tuner_output.stop_playback(); 
+                                let mut ns = GameState::new(output_arc.clone(), &song, lang_ru, layout.clone(), Instrument::Guitar).await; 
+                                ns.audio_data = mc.get_audio_state(); 
+                                game_state = Some(ns); 
+                                app_state = AppState::Game; 
+                            }
+                            Err(e) => eprintln!("Cannot load theory song '{}': {}", sp, e),
                         }
                     }
                     _ => { if bv { theory_state = LessonsState::new(); app_state = pop_nav!(AppState::Lessons); } }
@@ -1995,13 +2126,16 @@ async fn main() {
                 }
                 clear_background(Color::new(0.05, 0.05, 0.08, 1.));
                 theme.draw_background(get_time());
-
-                let (new_ssi, actual, enter, tuner_click, import_click, del_idx) =
+                
+                let (new_ssi, actual, enter, _tuner_click, import_click, del_idx) =
                     graphics::draw_song_selection_menu(&gc, &sl.songs, ssi, &font, lang_ru, &mut search, &locale, &mut theme);
                 ssi = new_ssi;
 
-                // ── Кнопки модулей внизу экрана ─────────────────────────────────────
-                let module_choice = graphics::draw_practice_modules(&gc, &font, &theme);
+                //Отрисовка и обработка выбора модуля практики ───
+                let module_choice = graphics::draw_practice_modules(&gc, &font, &theme, practice_module);
+                if module_choice != graphics::PracticeModuleChoice::None {
+                    practice_module = module_choice;
+                }
 
                 if let Some(di) = del_idx {
                     if di < sl.songs.len() {
@@ -2039,20 +2173,28 @@ async fn main() {
                 if enter || (is_key_pressed(KeyCode::Enter) && !search.active) {
                     if !sl.songs.is_empty() {
                         tuner_output.stop_playback();
-                        let mut ns = GameState::new(output_arc.clone(), &sl.songs[actual], lang_ru, layout.clone()).await;
+                        let instr = match practice_module {
+                            graphics::PracticeModuleChoice::Piano => Instrument::Piano,
+                            _ => Instrument::Guitar,
+                        };
+                        let mut ns = GameState::new(output_arc.clone(), &sl.songs[actual], lang_ru, layout.clone(), instr).await;
                         ns.audio_data = mc.get_audio_state();
-                        game_state = Some(ns); game_from_lesson = false; app_state = AppState::Game;
+
+                        game_state = Some(ns);
+                        game_from_lesson = false;
+                        app_state = AppState::Game;
                     }
                 }
 
                 // ── Обработка выбора модуля ─────────────────────────────────────────
                 match module_choice {
                     graphics::PracticeModuleChoice::Guitar => {
-                        // Текущий режим: выбор песни → игра (Enter или клик по строке уже обработан выше)
+                        // Просто переключаем активный модуль — игра запустится по Enter
+                        practice_module = graphics::PracticeModuleChoice::Guitar;
                     }
                     graphics::PracticeModuleChoice::Piano => {
-                        push_nav!();
-                        app_state = AppState::Studio;
+                        // Переключаем инструмент на пианино, оставаясь в Практике
+                        practice_module = graphics::PracticeModuleChoice::Piano;
                     }
                     graphics::PracticeModuleChoice::Tuner => {
                         push_nav!(); app_state = AppState::Tuner;
@@ -2532,7 +2674,15 @@ async fn main() {
                         if let Some(g) = &mut game_state {
                             clear_background(Color::new(0.06, 0.07, 0.10, 1.));
                             theme.draw_background(g.song_time);
-                            graphics::draw_fretboard(&gc, g, &font, &theme);
+                            
+                            // ─── Условная отрисовка ───
+                            if g.instrument == Instrument::Piano {
+                                graphics::draw_piano_game_board(&gc, g, &font, &theme);
+                            } else {
+                                graphics::draw_fretboard(&gc, g, &font, &theme);
+                            }
+                            // ─────────────────────────────────────
+                            
                             graphics::draw_ui(&gc, g, &font);
 
                             match phase {
@@ -2581,17 +2731,17 @@ async fn main() {
                         go_stats = true;
                     }
                     
-                    // ── Клавиша N - рестарт (работает всегда) ───────────────────────────
                     if is_key_pressed(KeyCode::N) {
                         if let Some(so) = sl.songs.iter().find(|s| s.name == g.current_song_name) {
-                            let mut ng = GameState::new(output_arc.clone(), so, g.lang_ru, layout.clone()).await;
+                            // ДОБАВЛЕНО: g.instrument
+                            let mut ng = GameState::new(output_arc.clone(), so, g.lang_ru, layout.clone(), g.instrument).await;
                             ng.lang_ru = g.lang_ru;
                             ng.audio_data = mc.get_audio_state();
                             *g = ng;
                             g.set_message("Restart".into());
                         }
                     }
-                    
+                                        
                     // ── Перемотка стрелками (работает на паузе и во время игры) ─────────
                     if is_key_pressed(KeyCode::Left) {
                         g.song_time = (g.song_time - 2.0).max(0.0);
@@ -2654,7 +2804,14 @@ async fn main() {
                     if is_key_pressed(KeyCode::R) { if let Some(m) = mc.toggle_recording(Some(&g.current_song_name)) { g.set_message(m); } }
 
                     if !g.game_over && !g.paused {
-                        if !g.lesson_mode { g.check_microphone_hit(); }
+                        if !g.lesson_mode {
+                            // ─── Детекция нот: MIDI (если подключён) или микрофон ───
+                            if g.midi_data.is_some() {
+                                g.check_midi_hit();
+                            } else {
+                                g.check_microphone_hit();
+                            }
+                        }
                         if is_key_pressed(KeyCode::Tab) { g.toggle_wave_type().await; }
                         if g.last_spawn_idx >= g.song_data.len() && g.events.is_empty() {
                             g.game_over = true;
@@ -2672,7 +2829,12 @@ async fn main() {
                     clear_background(Color::new(0.06, 0.07, 0.10, 1.));
                     theme.draw_background(g.song_time);
 
-                    graphics::draw_fretboard(&gc, g, &font, &theme);
+                    if g.instrument == Instrument::Piano {
+                        graphics::draw_piano_game_board(&gc, g, &font, &theme);
+                    } else {
+                        graphics::draw_fretboard(&gc, g, &font, &theme);
+                    }
+
                     graphics::draw_ui(&gc, g, &font);
                     graphics::draw_waveform_and_mic_info(&gc, &mc, g, &font, &theme);
                     graphics::draw_frequency_graph(&gc, &g.logger, g.song_time, &font, &theme);
@@ -2728,7 +2890,7 @@ async fn main() {
                         
                         if lmb && hover {
                             if let Some(so) = sl.songs.iter().find(|s| s.name == g.current_song_name) {
-                                let mut ng = GameState::new(output_arc.clone(), so, g.lang_ru, layout.clone()).await;
+                                let mut ng = GameState::new(output_arc.clone(), so, g.lang_ru, layout.clone(), g.instrument).await;
                                 ng.lang_ru = g.lang_ru;
                                 ng.audio_data = mc.get_audio_state();
                                 *g = ng;
@@ -2789,9 +2951,13 @@ async fn main() {
                 match action {
                     StatsAction::Restart => {
                         if let Some(so) = sl.songs.iter().find(|s| s.name == song_name) {
-                            let mut ng = GameState::new(output_arc.clone(), so, stat_lang, layout.clone()).await;
-                            ng.lang_ru = stat_lang; ng.audio_data = mc.get_audio_state();
-                            game_state = Some(ng); app_state = AppState::Game;
+                            // ДОБАВЛЕНО: получение инструмента из текущего состояния
+                            let instr = game_state.as_ref().map(|gs| gs.instrument).unwrap_or(Instrument::Guitar);
+                            let mut ng = GameState::new(output_arc.clone(), so, stat_lang, layout.clone(), instr).await;
+                            ng.lang_ru = stat_lang; 
+                            ng.audio_data = mc.get_audio_state();
+                            game_state = Some(ng); 
+                            app_state = AppState::Game;
                         }
                     }
                     StatsAction::BackToSongs => { app_state = AppState::SongSelection; game_state = None; game_from_lesson = false; }
@@ -2799,9 +2965,12 @@ async fn main() {
                     StatsAction::None        => {
                         if is_key_pressed(KeyCode::Space) {
                             if let Some(so) = sl.songs.iter().find(|s| s.name == song_name) {
-                                let mut ng = GameState::new(output_arc.clone(), so, stat_lang, layout.clone()).await;
-                                ng.lang_ru = stat_lang; ng.audio_data = mc.get_audio_state();
-                                game_state = Some(ng); app_state = AppState::Game;
+                                let instr = game_state.as_ref().map(|gs| gs.instrument).unwrap_or(Instrument::Guitar);
+                                let mut ng = GameState::new(output_arc.clone(), so, stat_lang, layout.clone(), instr).await;
+                                ng.lang_ru = stat_lang; 
+                                ng.audio_data = mc.get_audio_state();
+                                game_state = Some(ng); 
+                                app_state = AppState::Game;
                             }
                         }
                         if is_key_pressed(KeyCode::Escape) {
@@ -2820,6 +2989,39 @@ async fn main() {
                 if let Some(g) = &game_state {
                     clear_background(Color::new(0.06, 0.07, 0.10, 1.)); theme.draw_background(get_time());
                     graphics::draw_waveform_and_mic_info(&gc, &mc, g, &font, &theme);
+                    // ─── Индикатор MIDI ───
+                    if let Some(ref midi) = g.midi_data {
+                        if let Ok(md) = midi.lock() {
+                            let (label, color) = if md.is_connected {
+                                ("MIDI ON", macroquad::prelude::Color::new(0.2, 1.0, 0.4, 1.0))
+                            } else {
+                                ("MIDI OFF", macroquad::prelude::Color::new(1.0, 0.3, 0.3, 0.7))
+                            };
+                            draw_text_ex(label, gc.sx(10.0), gc.sy(20.0),
+                                TextParams { font_size: gc.s(16.0) as u16, font: Some(&font), color, ..Default::default() });
+
+                            // Показать активные (удерживаемые) ноты
+                            if !md.active_notes.is_empty() {
+                                let notes_str: Vec<String> = md.active_notes.iter()
+                                    .map(|&n| crate::get_note_name(440.0 * 2.0_f32.powf((n as f32 - 69.0) / 12.0)))
+                                    .collect();
+                                let active_str = format!("♪ {}", notes_str.join(", "));
+                                draw_text_ex(&active_str, gc.sx(10.0), gc.sy(40.0),
+                                    TextParams { font_size: gc.s(14.0) as u16, font: Some(&font),
+                                        color: macroquad::prelude::Color::new(1.0, 0.9, 0.3, 1.0), ..Default::default() });
+                            }
+
+                            // Показать последнюю нажатую ноту (крупно)
+                            if let Some(last) = md.last_note {
+                                let last_name = crate::get_note_name(440.0 * 2.0_f32.powf((last as f32 - 69.0) / 12.0));
+                                let last_str = format!("Last: {} (midi={})", last_name, last);
+                                draw_text_ex(&last_str, gc.sx(10.0), gc.sy(60.0),
+                                    TextParams { font_size: gc.s(12.0) as u16, font: Some(&font),
+                                        color: macroquad::prelude::Color::new(0.7, 0.8, 1.0, 0.9), ..Default::default() });
+                            }
+                        }
+                    }
+                    
                     graphics::draw_fretboard(&gc, g, &font, &theme);
                     graphics::draw_frequency_graph(&gc, &g.logger, g.song_time, &font, &theme);
                 }

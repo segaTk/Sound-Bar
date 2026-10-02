@@ -2,7 +2,7 @@
 name = "sound_notes"
 version = "0.1.0"
 edition = "2021"
-authors = ["Sergey Naumenko"]
+authors = ["Sergey Telepnyak"]
 license = "GNU Affero General License v3.0 (AGPL-3.0)"
 description = "Guitar learning game with real-time pitch detection"
 
@@ -14,7 +14,7 @@ cpal = "0.15"
 chrono = "0.4"
 rustfft = "6.1"
 num-complex = "0.4"
-
+midir = "0.9"
 midly = "0.5"
 #ndarray = "0.15"
 rand = "0.8"

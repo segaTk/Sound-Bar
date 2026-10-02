@@ -12,12 +12,20 @@ use crate::{
     SPEED_MULTIPLIERS, HIT_ZONE_Y, PLAYHEAD_X, NUM_STRINGS,
 };
 
+
+#[derive(Clone, Copy, Debug, PartialEq)]
+pub enum Instrument {
+    Guitar,
+    Piano,
+}
+
 // ─── Нота внутри летящего события ────────────────────────────────────────────
 
 #[derive(Clone, Debug)]
 pub struct GameEventNote {
     pub string_idx: usize,
     pub fret: usize,
+    pub midi_note: u8,
     /// Y-координата на грифе (зависит от string_idx).
     pub y: f32,
     /// Частота ноты (Hz).
@@ -33,23 +41,32 @@ pub struct GameEventNote {
 }
 
 impl GameEventNote {
-    pub fn new(cn: &ChordNote, tuning: &[f32; NUM_STRINGS], layout: &CalculatedLayout) -> Self {
+    pub fn new(cn: &ChordNote, tuning: &[f32; NUM_STRINGS], layout: &CalculatedLayout, instrument: Instrument) -> Self {
+        // Для пианино частота вычисляется напрямую из MIDI-ноты (предполагаем, что в JSON для пианино fret = midi_note)
+        // Для гитары используется стандартная формула с тюнингом.
         let freq = get_frequency(tuning, cn.string_idx, cn.fret);
+
+        let st = 12.0 * (freq / 440.0).log2();
+        let midi = ((st + 69.0).round() as i32).clamp(21, 108) as u8;
+
         GameEventNote {
             string_idx: cn.string_idx,
             fret: cn.fret,
-            // поле называется `y`, но фактически хранит X (так используется
-            // во всём graphics.rs: `let x = note.y;`)
-            y: layout.fret_center_x(cn.fret),
+            midi_note: midi,
+            y: layout.fret_center_x(cn.fret), // сохраняется для совместимости с логикой гитары
             freq,
             note_name: get_note_name(freq),
             pitch_step: freq_to_pitch_step(freq),
-            color: safe_string_color(cn.string_idx),
+            color: if instrument == Instrument::Piano {
+                // Радужная раскраска по имени ноты (C=красный, D=оранжевый, ...)
+                crate::note_color_from_midi(midi)
+            } else {
+                safe_string_color(cn.string_idx)
+            },
             confirmed: false,
         }
     }
 }
-
 // ─── Летящее событие (одна нота или аккорд) ──────────────────────────────────
 
 #[derive(Clone, Debug)]
@@ -72,14 +89,13 @@ pub struct GameEvent {
 }
 
 impl GameEvent {
-    pub fn from_song_event(ev: &SongEvent, tuning: &[f32; NUM_STRINGS], current_time: f64, speed_idx: usize, layout: &CalculatedLayout,) -> Self {
+    pub fn from_song_event(ev: &SongEvent, tuning: &[f32; NUM_STRINGS], current_time: f64, speed_idx: usize, layout: &CalculatedLayout, instrument: Instrument) -> Self {
         let eff_spd = 250.0 * SPEED_MULTIPLIERS[speed_idx];
         let tt = (ev.time - current_time) as f32;
-        //let x = PLAYHEAD_X - (tt * eff_spd);
         let y = HIT_ZONE_Y - (tt * eff_spd);
 
         let notes = ev.notes.iter()
-            .map(|cn| GameEventNote::new(cn, tuning, layout))
+            .map(|cn| GameEventNote::new(cn, tuning, layout, instrument))
             .collect();
 
         GameEvent {
@@ -137,6 +153,7 @@ impl GameEvent {
 pub struct GameNote {
     pub string_idx: usize,
     pub fret: usize,
+    pub midi_note: u8,
     pub x: f32,
     pub y: f32,
     pub target_time: f64,
@@ -157,6 +174,7 @@ impl GameNote {
         ev.notes.first().map(|n| GameNote {
             string_idx: n.string_idx,
             fret: n.fret,
+            midi_note: n.midi_note,
             x: n.y,
             y: ev.y,
             target_time: ev.target_time,

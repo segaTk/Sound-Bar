@@ -939,74 +939,362 @@ pub enum PracticeModuleChoice {
     Piano,
     Tuner,
 }
-
+// 1. Обновите draw_practice_modules, чтобы принимать active модуль и рисовать золотую рамку:
 pub fn draw_practice_modules(
-    gc: &GraphicsContext,
-    f: &Font,
-    theme: &ThemeState,
+    gc: &GraphicsContext, f: &Font, theme: &ThemeState, active: PracticeModuleChoice,
 ) -> PracticeModuleChoice {
     let is_day = theme.is_day;
     let ac = theme.current().accent;
-
-    let btn_w = 180.0_f32;
-    let btn_h = 56.0_f32;
-    let gap = 24.0_f32;
+    let btn_w = 180.0_f32; let btn_h = 56.0_f32; let gap = 24.0_f32;
     let total_w = btn_w * 3.0 + gap * 2.0;
     let btn_y = gc.base_h - btn_h - 30.0;
     let start_x = gc.base_w / 2.0 - total_w / 2.0;
-
-    let guitar_x = start_x;
-    let piano_x  = start_x + btn_w + gap;
-    let tuner_x  = start_x + (btn_w + gap) * 2.0;
-
+    let guitar_x = start_x; let piano_x = start_x + btn_w + gap; let tuner_x = start_x + (btn_w + gap) * 2.0;
+    
     let (mx, my) = mouse_position_logical(gc);
     let lmb = is_mouse_button_pressed(MouseButton::Left);
-
     let hg = mx >= guitar_x && mx <= guitar_x + btn_w && my >= btn_y && my <= btn_y + btn_h;
     let hp = mx >= piano_x  && mx <= piano_x  + btn_w && my >= btn_y && my <= btn_y + btn_h;
     let ht = mx >= tuner_x  && mx <= tuner_x  + btn_w && my >= btn_y && my <= btn_y + btn_h;
 
-    // Вспомогательная: рисует одну кнопку модуля
     let draw_btn = |gc: &GraphicsContext, f: &Font, x: f32, y: f32, w: f32, h: f32,
-                    label: &str, accent: Color, hov: bool, is_day: bool| {
+        label: &str, accent: Color, hov: bool, is_active: bool, is_day: bool| {
         let bg = if is_day {
             if hov { Color::new(0.75, 0.80, 0.88, 0.92) } else { Color::new(0.90, 0.93, 0.97, 0.85) }
         } else {
             if hov { Color::new(ac.r*0.18, ac.g*0.18, ac.b*0.18, 0.88) } else { Color::new(0.09, 0.11, 0.16, 0.78) }
         };
         draw_rectangle(gc.sx(x), gc.sy(y), gc.sx(w), gc.sy(h), bg);
-        if hov {
+        
+        // Золотая рамка для активного модуля
+        if is_active {
+            draw_glow_rect_lines(gc, x, y, w, h, Color::new(1.0, 0.85, 0.2, 1.0));
+        } else if hov {
             draw_glow_rect_lines(gc, x, y, w, h, accent);
         } else {
-            draw_rectangle_lines(gc.sx(x), gc.sy(y), gc.sx(w), gc.sy(h),
-                gc.s(1.5), Color::new(accent.r, accent.g, accent.b, 0.75));
+            draw_rectangle_lines(gc.sx(x), gc.sy(y), gc.sx(w), gc.sy(h), gc.s(1.5), Color::new(accent.r, accent.g, accent.b, 0.75));
         }
+        
         let lfs = gc.s(20.0).round() as u16;
         let lw = measure_text(label, Some(f), lfs, 1.0).width / gc.scale_x;
         let tc = if is_day {
             if hov { Color::new(0.05, 0.08, 0.18, 1.0) } else { Color::new(0.10, 0.14, 0.30, 0.92) }
         } else {
-            if hov { WHITE } else { accent }
+            if hov { WHITE } else { Color::new(ac.r*0.85+0.15, ac.g*0.85+0.15, ac.b*0.85+0.15, 1.0) }
         };
         draw_text_ex(label, gc.sx(x + w / 2.0 - lw / 2.0), gc.sy(y + h / 2.0 + 8.0),
             TextParams { font_size: lfs, font: Some(f), color: tc, ..Default::default() });
     };
 
-    draw_btn(gc, f, guitar_x, btn_y, btn_w, btn_h, "Guitar",
-        Color::new(0.2, 0.9, 0.4, 1.0), hg, is_day);
-    draw_btn(gc, f, piano_x,  btn_y, btn_w, btn_h, "Piano",
-        Color::new(0.8, 0.3, 0.9, 1.0), hp, is_day);
-    draw_btn(gc, f, tuner_x,  btn_y, btn_w, btn_h, "Tuner",
-        Color::new(0.3, 0.85, 0.55, 1.0), ht, is_day);
+    draw_btn(gc, f, guitar_x, btn_y, btn_w, btn_h, "Guitar", Color::new(0.2, 0.9, 0.4, 1.0), hg, active == PracticeModuleChoice::Guitar, is_day);
+    draw_btn(gc, f, piano_x,  btn_y, btn_w, btn_h, "Piano",  Color::new(0.8, 0.3, 0.9, 1.0), hp, active == PracticeModuleChoice::Piano, is_day);
+    draw_btn(gc, f, tuner_x,  btn_y, btn_w, btn_h, "Tuner",  Color::new(0.3, 0.85, 0.55, 1.0), ht, active == PracticeModuleChoice::Tuner, is_day);
 
     if lmb {
         if hg { return PracticeModuleChoice::Guitar; }
-        if hp { return PracticeModuleChoice::Piano;  }
-        if ht { return PracticeModuleChoice::Tuner;  }
+        if hp { return PracticeModuleChoice::Piano; }
+        if ht { return PracticeModuleChoice::Tuner; }
     }
     PracticeModuleChoice::None
 }
- 
+
+// 2. Добавьте новые функции для отрисовки пианино в игре (в конец файла graphics.rs):
+
+/// Возвращает (x, y, width, height) прямоугольника клавиши для заданной MIDI-ноты
+pub fn get_piano_key_rect_game(midi_note: u8, px: f32, py: f32, pw: f32, ph: f32) -> (f32, f32, f32, f32) {
+    let white_key_w = pw / 52.0;
+    let white_key_h = ph;
+    let black_key_w = white_key_w * 0.65;
+    let black_key_h = ph * 0.65;
+
+    let mut white_idx = 0;
+    for mn in 21..=108 {
+        let note_in_octave = mn % 12;
+        let is_black = [1, 3, 6, 8, 10].contains(&note_in_octave);
+
+        if !is_black {
+            if mn == midi_note {
+                return (px + white_idx as f32 * white_key_w, py, white_key_w, white_key_h);
+            }
+            white_idx += 1;
+        } else {
+            if mn == midi_note {
+                let bx = px + (white_idx as f32 - 0.5) * white_key_w;
+                return (bx, py, black_key_w, black_key_h);
+            }
+        }
+    }
+    (px, py, white_key_w, white_key_h)
+}
+
+/// Отрисовка игровой доски с пианино внизу и падающими нотами
+pub fn draw_piano_game_board(gc: &GraphicsContext, s: &GameState, f: &Font, theme: &ThemeState) {
+    let l = &gc.layout;
+    let is_day = theme.is_day;
+
+    // 1. Рисуем пианино внизу экрана, ВЫШЕ панели управления
+    let piano_h = 180.0_f32;
+    let piano_y = l.window_h - 82.0 - 10.0 - piano_h;
+    let piano_x = 0.0;
+    let piano_w = l.window_w;
+
+    // 2. Линия зоны попадания (Hit Zone) — прямо над верхней кромкой клавиатуры
+    let hit_zone_y = piano_y - 6.0;
+    draw_line(gc.sx(0.0), gc.sy(hit_zone_y), gc.sx(l.window_w), gc.sy(hit_zone_y),
+        gc.s(3.0), Color::new(0.2, 0.9, 0.3, 0.9));
+
+    // 3. Собираем информацию об активных нотах (для подсветки клавиш)
+    //    Ключ: midi_note, Значение: (color, progress)
+    let mut active_notes: std::collections::HashMap<u8, (Color, f32)> = std::collections::HashMap::new();
+    let warn_secs = 0.5_f64;
+
+    for ev in &s.events {
+        if ev.hit || ev.missed { continue; }
+        let time_to_hit = ev.target_time - s.song_time;
+        if time_to_hit >= -0.15 && time_to_hit <= warn_secs {
+            let progress = (1.0 - time_to_hit / warn_secs).clamp(0.0, 1.0) as f32;
+            for note in &ev.notes {
+                let entry = active_notes.entry(note.midi_note).or_insert((note.color, 0.0));
+                if progress > entry.1 {
+                    entry.0 = note.color;
+                    entry.1 = progress;
+                }
+            }
+        }
+    }
+
+    // ── Индикатор MIDI подключения (правый верхний угол) ───
+    let midi_connected = s.midi_data.is_some();
+    let indicator_x = gc.base_w - 180.0;
+    let indicator_y = 20.0;
+    let indicator_w = 160.0;
+    let indicator_h = 30.0;
+    
+    let bg_color = if midi_connected {
+        Color::new(0.2, 0.6, 0.3, 0.9)
+    } else {
+        Color::new(0.6, 0.2, 0.2, 0.9)
+    };
+    
+    draw_rectangle(
+        gc.sx(indicator_x), gc.sy(indicator_y),
+        gc.sx(indicator_w), gc.sy(indicator_h),
+        bg_color
+    );
+    
+    draw_rectangle_lines(
+        gc.sx(indicator_x), gc.sy(indicator_y),
+        gc.sx(indicator_w), gc.sy(indicator_h),
+        gc.s(2.0),
+        if midi_connected {
+            Color::new(0.3, 0.8, 0.4, 1.0)
+        } else {
+            Color::new(0.8, 0.3, 0.3, 1.0)
+        }
+    );
+    
+    let status_text = if midi_connected {
+        "MIDI: Подключено"
+    } else {
+        "MIDI: Нет сигнала"
+    };
+    
+    let text_color = WHITE;
+    let text_w = measure_text(status_text, Some(f), gc.s(14.0) as u16, 1.0).width / gc.scale_x;
+    
+    draw_text_ex(
+        status_text,
+        gc.sx(indicator_x + (indicator_w - text_w) / 2.0),
+        gc.sy(indicator_y + indicator_h * 0.68),
+        TextParams {
+            font_size: gc.s(14.0) as u16,
+            font: Some(f),
+            color: text_color,
+            ..Default::default()
+        }
+    );
+
+    // 3.5 Собираем MIDI-активные ноты
+    let midi_active: Vec<u8> = if let Some(ref midi) = s.midi_data {
+        midi.lock().map(|d| d.active_notes.clone()).unwrap_or_default()
+    } else {
+        Vec::new()
+    };
+
+    // 4. Рисуем клавиатуру с подсветкой активных нот
+    draw_piano_keys_game(gc, f, piano_x, piano_y, piano_w, piano_h, is_day, &active_notes, &midi_active);
+    // 4.5 Нотный стан в правом верхнем углу
+    draw_mini_notation_top_right(gc, s, f, theme);        
+    // 5. Падающие ноты + ромбики на клавишах
+    for ev in &s.events {
+        if ev.hit || ev.missed { continue; }
+        let time_to_hit = ev.target_time - s.song_time;
+
+        for note in &ev.notes {
+            // Точные координаты клавиши, над которой должна падать нота
+            let (kx, ky, kw, kh) = get_piano_key_rect_game(note.midi_note, piano_x, piano_y, piano_w, piano_h);
+            let target_x = kx + kw / 2.0;
+            let ny = ev.y; // Вертикальная позиция падения
+
+            // Увеличение ноты при приближении
+            let distance_to_hit = (hit_zone_y - ny).abs();
+            let dr = 1.0 - (distance_to_hit / 350.0).clamp(0.0, 1.0);
+            let scale = 1.0 + dr * 0.2;
+            let cs = 28.0_f32 * scale;
+
+            // Ромбик на клавише в момент попадания
+            if time_to_hit >= -0.15 && time_to_hit <= warn_secs {
+                let progress = (1.0 - time_to_hit / warn_secs).clamp(0.0, 1.0) as f32;
+                let pulse = ((get_time() as f32 * (6.0 + progress * 6.0)).sin() * 0.2 + 0.8).clamp(0.0, 1.0);
+                let alpha = progress * 0.8 * pulse;
+
+                let diamond_size = gc.s(14.0 + progress * 8.0);
+                // Ромбик рисуется РОВНО по центру клавиши
+                let cx = gc.sx(target_x);
+                let cy = gc.sy(ky + kh * 0.5); // центр клавиши по вертикали
+
+                // Внешний glow ромба
+                for layer in 1..=3u8 {
+                    let lf = layer as f32 / 3.0;
+                    let ls = diamond_size * (1.0 + lf * 0.8);
+                    let la = alpha * (1.0 - lf) * 0.4;
+                    draw_triangle(Vec2::new(cx, cy - ls), Vec2::new(cx + ls * 0.65, cy), Vec2::new(cx - ls * 0.65, cy),
+                        Color::new(note.color.r, note.color.g, note.color.b, la));
+                    draw_triangle(Vec2::new(cx, cy + ls), Vec2::new(cx + ls * 0.65, cy), Vec2::new(cx - ls * 0.65, cy),
+                        Color::new(note.color.r, note.color.g, note.color.b, la));
+                }
+
+                // Основной ромб цвета ноты
+                draw_triangle(Vec2::new(cx, cy - diamond_size), Vec2::new(cx + diamond_size * 0.65, cy), Vec2::new(cx - diamond_size * 0.65, cy),
+                    Color::new(note.color.r, note.color.g, note.color.b, alpha));
+                draw_triangle(Vec2::new(cx, cy + diamond_size), Vec2::new(cx + diamond_size * 0.65, cy), Vec2::new(cx - diamond_size * 0.65, cy),
+                    Color::new(note.color.r, note.color.g, note.color.b, alpha));
+
+                // Белое ядро ромба для контраста
+                let core = diamond_size * 0.3;
+                draw_triangle(Vec2::new(cx, cy - core), Vec2::new(cx + core * 0.65, cy), Vec2::new(cx - core * 0.65, cy),
+                    Color::new(1.0, 1.0, 1.0, alpha * 0.85));
+                draw_triangle(Vec2::new(cx, cy + core), Vec2::new(cx + core * 0.65, cy), Vec2::new(cx - core * 0.65, cy),
+                    Color::new(1.0, 1.0, 1.0, alpha * 0.85));
+            }
+
+            // Рисуем саму падающую ноту (цвет теперь радужный)
+            draw_glow_circle(gc, target_x, ny, cs, note.color, 4);
+
+            // Имя ноты
+            draw_text_ex(&note.note_name, gc.sx(target_x - 18.0), gc.sy(ny - 10.0),
+                TextParams { font_size: gc.s(24.0) as u16, font: Some(f), color: BLACK, ..Default::default() });
+        }
+    }
+
+    // 6. Частицы и вспышки
+    for p in &s.particles {
+        let al = (p.life / 0.7).min(1.0);
+        draw_circle(gc.sx(p.x), gc.sy(p.y), gc.s(p.size), Color::new(p.color.r, p.color.g, p.color.b, al));
+    }
+    if s.flash_timer > 0. {
+        let al = (s.flash_timer / 0.15).min(1.0) * 0.4;
+        draw_rectangle(gc.sx(0.), gc.sy(0.), gc.sx(l.window_w), gc.sy(l.window_h),
+            Color::new(s.flash_color.r, s.flash_color.g, s.flash_color.b, al));
+    }
+}
+
+/// Отрисовка 88 клавиш с подсветкой активных нот их радужным цветом
+fn draw_piano_keys_game(
+    gc: &GraphicsContext, f: &Font,
+    px: f32, py: f32, pw: f32, ph: f32,
+    is_day: bool,
+    active_notes: &std::collections::HashMap<u8, (Color, f32)>,
+    midi_active_notes: &[u8],
+) {
+    let white_key_w = pw / 52.0;
+    let white_key_h = ph;
+    let black_key_w = white_key_w * 0.65;
+    let black_key_h = ph * 0.65;
+
+    let white_bg = if is_day { Color::new(0.98, 0.98, 0.98, 1.0) } else { Color::new(0.95, 0.95, 0.95, 1.0) };
+    let black_bg = if is_day { Color::new(0.15, 0.15, 0.15, 1.0) } else { Color::new(0.1, 0.1, 0.1, 1.0) };
+    let border_col = if is_day { Color::new(0.3, 0.3, 0.3, 0.5) } else { Color::new(0.5, 0.5, 0.5, 0.6) };
+
+    // Рисуем белые клавиши
+    let mut white_idx = 0;
+    for midi_note in 21..=108u8 {
+        let note_in_octave = midi_note % 12;
+        if ![1, 3, 6, 8, 10].contains(&note_in_octave) {
+            let kx = px + white_idx as f32 * white_key_w;
+
+            // Подсветка: приоритет — физически нажатая MIDI-клавиша
+            let bg = if midi_active_notes.contains(&midi_note) {
+                // Клавиша физически нажата на MIDI-клавиатуре — яркая подсветка
+                if let Some((color, _)) = active_notes.get(&midi_note) {
+                    Color::new(color.r * 0.7 + 0.3, color.g * 0.7 + 0.3, color.b * 0.7 + 0.3, 1.0)
+                } else {
+                    Color::new(0.6, 0.8, 1.0, 1.0) // голубая подсветка
+                }
+            } else if let Some((color, progress)) = active_notes.get(&midi_note) {
+                // Падающая нота приближается
+                let t = progress * 0.6;
+                Color::new(
+                    white_bg.r * (1.0 - t) + color.r * t,
+                    white_bg.g * (1.0 - t) + color.g * t,
+                    white_bg.b * (1.0 - t) + color.b * t,
+                    1.0,
+                )
+            } else {
+                white_bg
+            };
+
+            draw_rectangle(gc.sx(kx), gc.sy(py), gc.sx(white_key_w - 1.0), gc.sy(white_key_h), bg);
+            draw_rectangle_lines(gc.sx(kx), gc.sy(py), gc.sx(white_key_w - 1.0), gc.sy(white_key_h),
+                gc.s(1.0), border_col);
+
+            // Подписи октав (C)
+            if note_in_octave == 0 {
+                let octave = midi_note / 12 - 1;
+                let label = format!("C{}", octave);
+                let lfs = gc.s(10.0) as u16;
+                let lw = measure_text(&label, Some(f), lfs, 1.0).width / gc.scale_x;
+                draw_text_ex(&label, gc.sx(kx + white_key_w * 0.5 - lw / 2.0), gc.sy(py + white_key_h - 15.0),
+                    TextParams { font_size: lfs, font: Some(f), color: Color::new(0.4, 0.4, 0.4, 0.7), ..Default::default() });
+            }
+            white_idx += 1;
+        }
+    }
+
+    // Рисуем черные клавиши
+    white_idx = 0;
+    for midi_note in 21..=108u8 {
+        let note_in_octave = midi_note % 12;
+        if [1, 3, 6, 8, 10].contains(&note_in_octave) {
+            let black_x = px + (white_idx as f32 - 0.5) * white_key_w;
+
+            let bg = if midi_active_notes.contains(&midi_note) {
+                if let Some((color, _)) = active_notes.get(&midi_note) {
+                    Color::new(color.r * 0.7 + 0.3, color.g * 0.7 + 0.3, color.b * 0.7 + 0.3, 1.0)
+                } else {
+                    Color::new(0.4, 0.55, 0.85, 1.0) // светло-голубая подсветка
+                }
+            } else if let Some((color, progress)) = active_notes.get(&midi_note) {
+                let t = progress * 0.7;
+                Color::new(
+                    black_bg.r * (1.0 - t) + color.r * t,
+                    black_bg.g * (1.0 - t) + color.g * t,
+                    black_bg.b * (1.0 - t) + color.b * t,
+                    1.0,
+                )
+            } else {
+                black_bg
+            };
+
+            draw_rectangle(gc.sx(black_x), gc.sy(py), gc.sx(black_key_w), gc.sy(black_key_h), bg);
+            draw_rectangle_lines(gc.sx(black_x), gc.sy(py), gc.sx(black_key_w), gc.sy(black_key_h),
+                gc.s(1.0), Color::new(0.0, 0.0, 0.0, 0.8));
+        } else {
+            white_idx += 1;
+        }
+    }
+}
+
 // ─── UI паузы в режиме урока ──────────────────────────────────────────────────
  
 /// Рисует оверлей паузы урока: прогресс, подсказка, инструкция.
@@ -2618,51 +2906,76 @@ pub fn draw_waveform_and_mic_info(gc: &GraphicsContext, mc: &MicController, _: &
     }
 }
 
+
 pub fn draw_frequency_graph(gc: &GraphicsContext, log: &GameLogger, ct: f64, f: &Font, theme: &ThemeState) {
     let l = &gc.layout;
     let is_day = theme.is_day;
+
+    // ── Привязка к нотному стану в правом верхнем углу ────────────────────
+    // Используем те же константы, что и в draw_mini_notation_top_right
+    let staff_panel_w = 420.0_f32;
+    let staff_panel_h = 150.0_f32;
+    let staff_panel_x = l.window_w - staff_panel_w - 20.0;
+    let staff_panel_y = 64.0_f32;
+
+    // График располагается строго под нотным станом с отступом 10px
+    let graph_x = staff_panel_x;
+    let graph_y = staff_panel_y + staff_panel_h + 10.0;
+    let graph_w = staff_panel_w; // Ширина совпадает с шириной стана
+    let graph_h = 150.0_f32;     // Стандартная высота графика
+
+    // ── Отрисовка фона и рамки ────────────────────────────────────────────
     let bg = if is_day { Color::new(0.68, 0.72, 0.82, 0.90) } else { Color::new(0.05, 0.05, 0.1, 0.9) };
     let border = if is_day { Color::new(0.35, 0.38, 0.55, 0.55) } else { Color::new(0.4, 0.4, 0.6, 0.8) };
     let label_col = if is_day { Color::new(0.10, 0.12, 0.25, 1.0) } else { WHITE };
     let grid_col = if is_day { Color::new(0.45, 0.48, 0.58, 0.5) } else { Color::new(0.2, 0.2, 0.3, 0.5) };
     let grid_label_col = if is_day { Color::new(0.35, 0.38, 0.48, 1.0) } else { GRAY };
 
-    draw_rectangle(gc.sx(l.freq_graph_x), gc.sy(l.freq_graph_y), gc.sx(220.0), gc.sy(150.0), bg);
-    draw_rectangle_lines(gc.sx(l.freq_graph_x), gc.sy(l.freq_graph_y), gc.sx(220.0), gc.sy(150.0), gc.s(2.), border);
-    draw_text_custom(gc, "FREQ vs TIME", l.freq_graph_x + 5., l.freq_graph_y + 15., 12, label_col, f);
+    draw_rectangle(gc.sx(graph_x), gc.sy(graph_y), gc.sx(graph_w), gc.sy(graph_h), bg);
+    draw_rectangle_lines(gc.sx(graph_x), gc.sy(graph_y), gc.sx(graph_w), gc.sy(graph_h), gc.s(2.), border);
+    draw_text_custom(gc, "FREQ vs TIME", graph_x + 5., graph_y + 15., 12, label_col, f);
 
+    // ── Координатная сетка и данные ───────────────────────────────────────
     let minf = 50.0; let maxf = 1000.0;
-    let top = l.freq_graph_y;
-    let bottom = l.freq_graph_y + 150.0;
-    // Клэмп — без него точки с частотой за пределами [minf, maxf] рисовались
-    // выше/ниже самого прямоугольника графика.
+    let top = graph_y;
+    let bottom = graph_y + graph_h;
+
     let f2y = |fr: f32| -> f32 {
         if fr <= 0.0 { return bottom; }
         let r = (fr / minf).ln() / (maxf / minf).ln();
-        (bottom - r * 150.0).clamp(top, bottom)
+        (bottom - r * graph_h).clamp(top, bottom)
     };
+
     let t2x = |t: f64| -> f32 {
         let d = ct - t;
-        if d < 0.0 { return l.freq_graph_x + 220.0; }
+        if d < 0.0 { return graph_x + graph_w; }
         let r = d as f32 / 5.0;
-        if r > 1.0 { return l.freq_graph_x - 10.; }
-        l.freq_graph_x + 220.0 - r * 220.0
+        if r > 1.0 { return graph_x - 10.; }
+        graph_x + graph_w - r * graph_w
     };
+
+    // Горизонтальные линии сетки
     for &fr in &[110.0, 220.0, 440.0, 660.0] {
         let y = f2y(fr);
-        draw_line(gc.sx(l.freq_graph_x), gc.sy(y), gc.sx(l.freq_graph_x + 220.0), gc.sy(y), gc.s(1.), grid_col);
-        draw_text_custom(gc, &format!("{:.0}", fr), l.freq_graph_x + 4., y - 8., 8, grid_label_col, f);
+        draw_line(gc.sx(graph_x), gc.sy(y), gc.sx(graph_x + graph_w), gc.sy(y), gc.s(1.), grid_col);
+        draw_text_custom(gc, &format!("{:.0}", fr), graph_x + 4., y - 8., 8, grid_label_col, f);
     }
+
+    // Целевые ноты (Target)
     for ev in &log.events {
         if ev.is_target {
             let x = t2x(ev.timestamp);
-            if x >= l.freq_graph_x && x <= l.freq_graph_x + 220.0 {
+            if x >= graph_x && x <= graph_x + graph_w {
                 if let Some(ef) = ev.expected_freq {
-                    let yt = f2y(ef + 20.0); let yb = f2y(ef - 20.0); let h = (yb - yt).abs();
+                    let yt = f2y(ef + 20.0); 
+                    let yb = f2y(ef - 20.0); 
+                    let h = (yb - yt).abs();
                     let bc = safe_string_color(ev.string_idx);
                     let br = match ev.hit_result { Some(true) => GREEN, Some(false) => RED, _ => Color::new(bc.r, bc.g, bc.b, 1.0) };
+                    
                     draw_rectangle(gc.sx(x - 2.), gc.sy(yt), gc.s(4.), gc.sy(h), Color::new(bc.r, bc.g, bc.b, 0.3));
                     draw_rectangle_lines(gc.sx(x - 2.), gc.sy(yt), gc.s(4.), gc.sy(h), gc.s(2.), br);
+                    
                     if ev.hit_result == Some(false) {
                         draw_line(gc.sx(x - 4.), gc.sy(yt), gc.sx(x + 6.), gc.sy(yb), gc.s(2.), RED);
                         draw_line(gc.sx(x + 6.), gc.sy(yt), gc.sx(x - 4.), gc.sy(yb), gc.s(2.), RED);
@@ -2671,79 +2984,85 @@ pub fn draw_frequency_graph(gc: &GraphicsContext, log: &GameLogger, ct: f64, f: 
             }
         }
     }
+
+    // Детектированная частота (Mic/MIDI)
     let mut pp: Option<(f32, f32)> = None;
     for ev in &log.events {
         if !ev.is_target {
             if let Some(fr) = ev.freq {
-                let x = t2x(ev.timestamp); let y = f2y(fr);
-                if x >= l.freq_graph_x && x <= l.freq_graph_x + 220.0 {
+                let x = t2x(ev.timestamp); 
+                let y = f2y(fr);
+                if x >= graph_x && x <= graph_x + graph_w {
                     draw_circle(gc.sx(x), gc.sy(y), gc.s(2.), Color::new(0.2, 1.0, 0.2, 0.9));
                     if let Some((px, py)) = pp {
-                        if (x - px).abs() < 15.0 { draw_line(gc.sx(px), gc.sy(py), gc.sx(x), gc.sy(y), gc.s(1.), Color::new(0.2, 1.0, 0.2, 0.5)); }
+                        if (x - px).abs() < 15.0 { 
+                            draw_line(gc.sx(px), gc.sy(py), gc.sx(x), gc.sy(y), gc.s(1.), Color::new(0.2, 1.0, 0.2, 0.5)); 
+                        }
                     }
                     pp = Some((x, y));
                 }
             }
         }
     }
-    draw_line(gc.sx(l.freq_graph_x + 220.0), gc.sy(l.freq_graph_y), gc.sx(l.freq_graph_x + 220.0), gc.sy(l.freq_graph_y + 150.0), gc.s(2.), if is_day { Color::new(0.2, 0.25, 0.4, 1.0) } else { WHITE });
+
+    // Правая граница (ось времени)
+    draw_line(gc.sx(graph_x + graph_w), gc.sy(graph_y), gc.sx(graph_x + graph_w), gc.sy(graph_y + graph_h), gc.s(2.), if is_day { Color::new(0.2, 0.25, 0.4, 1.0) } else { WHITE });
 }
 
 pub fn draw_ui(gc: &GraphicsContext, s: &GameState, f: &Font) {
     let l = &gc.layout;
     let t = &s.locale;
-    // Центрируем заголовок
+
+    // ── Заголовок и название песни (центрированы по горизонтали) ───────────
     let tw = measure_text(&t.title, Some(f), gc.s(26.0) as u16, 1.0).width / gc.scale_x;
     draw_text_custom(gc, &t.title, l.window_w / 2.0 - tw / 2.0, 25., 26, WHITE, f);
+
     let sl = format!("{} {}", t.song_label, truncate_str(&s.current_song_name, 40));
     let slw = measure_text(&sl, Some(f), gc.s(20.0) as u16, 1.0).width / gc.scale_x;
     draw_text_custom(gc, &sl, l.window_w / 2.0 - slw / 2.0, 60., 20, Color::new(0.8, 0.8, 1.0, 1.0), f);
+
+    // ── Счёт, скорость, комбо ──────────────────────────────────────────────
     draw_text_custom(gc, &format!("{} {}", t.score_label, s.score), 20., l.window_h - 50., 22, if s.combo >= 20 { GOLD } else { WHITE }, f);
     draw_text_custom(gc, &format!("{} {}", t.speed_label, SPEED_LABELS[s.speed_index]), l.window_w - 120., l.window_h - 50., 18, Color::new(0.9, 0.9, 0.3, 1.0), f);
     if s.combo > 1 {
         draw_text_custom(gc, &t.combo_label.replace("{}", &s.combo.to_string()), 20., l.window_h - 25., 20, Color::new(1., 0.5, 0.2, 1.), f);
     }
 
+    // ── Подсказки управления ───────────────────────────────────────────────
     draw_text_custom(gc, &format!("{} | {}", t.hint_record, t.hint_songs),
         l.window_w / 2. - 150., l.window_h - 52., 13, Color::new(0.6, 0.6, 0.7, 0.85), f);
-        let pr = if s.song_data.is_empty() { 0.0 } else { s.last_spawn_idx as f32 / s.song_data.len() as f32 };
+
+    // ── Прогресс-бар песни ─────────────────────────────────────────────────
+    let pr = if s.song_data.is_empty() { 0.0 } else { s.last_spawn_idx as f32 / s.song_data.len() as f32 };
     draw_rectangle(gc.sx(l.window_w / 2. - 100.), gc.sy(l.window_h - 15.), gc.sx(200. * pr), gc.s(8.), Color::new(0.3, 0.8, 0.9, 0.8));
+
+    // ── Экран завершения песни (центрированный) ────────────────────────────
     if s.game_over {
         draw_rectangle(gc.sx(0.), gc.sy(0.), gc.sx(l.window_w), gc.sy(l.window_h), Color::new(0., 0., 0., 0.85));
-        draw_text_custom(gc, &t.song_complete, l.window_w / 2. - 150., l.window_h / 2. - 50., 36, GOLD, f);
-        draw_text_custom(gc, &format!("{} {}", t.final_score, s.score), l.window_w / 2. - 110., l.window_h / 2., 26, WHITE, f);
-        draw_text_custom(gc, &t.restart_space, l.window_w / 2. - 130., l.window_h / 2. + 90., 20, Color::new(0.8, 0.8, 1., 1.), f);
 
-        // ── Кнопка Restart ──────────────────────────────────────────────────
-        let btn_w = 180.0_f32;
-        let btn_h = 44.0_f32;
-        let btn_x = l.window_w / 2.0 - btn_w / 2.0;
-        let btn_y = l.window_h / 2.0 + 120.0;
-        
-        let (mx, my) = mouse_position_logical(gc);
-        let lmb = is_mouse_button_pressed(MouseButton::Left);
-        let hover = mx >= btn_x && mx <= btn_x + btn_w && my >= btn_y && my <= btn_y + btn_h;
-        
-        let btn_bg = if hover {
-            Color::new(0.3, 0.7, 0.9, 0.9)
-        } else {
-            Color::new(0.2, 0.5, 0.8, 0.8)
-        };
-        
-        draw_rectangle(gc.sx(btn_x), gc.sy(btn_y), gc.sx(btn_w), gc.sy(btn_h), btn_bg);
-        
-        if hover {
-            draw_glow_rect_lines(gc, btn_x, btn_y, btn_w, btn_h, Color::new(0.4, 0.8, 1.0, 1.0));
-        } else {
-            draw_rectangle_lines(gc.sx(btn_x), gc.sy(btn_y), gc.sx(btn_w), gc.sy(btn_h),
-                gc.s(1.5), Color::new(0.3, 0.6, 0.9, 0.8));
-        }
-        
-        let btn_text = "Restart (N)";
-        let btw = measure_text(btn_text, Some(f), gc.s(18.0) as u16, 1.0).width / gc.scale_x;
-        draw_text_custom(gc, btn_text, btn_x + (btn_w - btw) / 2.0, btn_y + btn_h * 0.65, 18, WHITE, f);
+        let cx = l.window_w / 2.0;
+        let cy = l.window_h / 2.0;
 
+        // Заголовок "Песня завершена!"
+        let title_fs = 36u16;
+        let title_mw = measure_text(&t.song_complete, Some(f), gc.s(title_fs as f32) as u16, 1.0).width / gc.scale_x;
+        draw_text_custom(gc, &t.song_complete, cx - title_mw / 2.0, cy - 60.0, title_fs, GOLD, f);
+
+        // Итоговый счёт
+        let score_label = format!("{} {}", t.final_score, s.score);
+        let score_fs = 26u16;
+        let score_mw = measure_text(&score_label, Some(f), gc.s(score_fs as f32) as u16, 1.0).width / gc.scale_x;
+        draw_text_custom(gc, &score_label, cx - score_mw / 2.0, cy - 10.0, score_fs, WHITE, f);
+
+        // Подсказка Space → статистика
+        let hint_fs = 20u16;
+        let hint_mw = measure_text(&t.restart_space, Some(f), gc.s(hint_fs as f32) as u16, 1.0).width / gc.scale_x;
+        draw_text_custom(gc, &t.restart_space, cx - hint_mw / 2.0, cy + 40.0, hint_fs, Color::new(0.8, 0.8, 1., 1.), f);
+
+        // Кнопка Restart удалена по предыдущему запросу
     }
+
+    // ── Всплывающее сообщение ──────────────────────────────────────────────
     if let Some((ref msg, _)) = s.message {
         let mw = measure_text(msg, Some(f), gc.s(20.0) as u16, 1.0).width / gc.scale_x;
         draw_text_custom(gc, msg, l.window_w / 2.0 - mw / 2.0, l.window_h / 2.0 - 80.0, 20, Color::new(1.0, 0.9, 0.3, 1.0), f);
@@ -5605,4 +5924,69 @@ pub fn draw_tuner_target_indicator(
                        else { Color::new(0.45, 0.50, 0.60, 0.75) },
                 ..Default::default() });
     }
+}
+
+/// Компактный нотный стан в правом верхнем углу (режим пианино).
+/// Ноты движутся к центральной красной линии: пересечение = момент попадания.
+pub fn draw_mini_notation_top_right(
+    gc: &GraphicsContext, s: &GameState, f: &Font, theme: &ThemeState,
+) {
+    let l = &gc.layout;
+    let is_day = theme.is_day;
+
+    let panel_w = 420.0_f32;
+    let panel_h = 150.0_f32;
+    let panel_x = l.window_w - panel_w - 20.0;
+    let panel_y = 64.0_f32; // под индикатором MIDI
+
+    let bg        = if is_day { Color::new(0.72, 0.76, 0.84, 0.90) }
+                    else      { Color::new(0.06, 0.06, 0.10, 0.85) };
+    let border    = if is_day { Color::new(0.35, 0.45, 0.65, 0.55) }
+                    else      { Color::new(0.4, 0.5, 0.7, 0.6) };
+    let label_col = if is_day { Color::new(0.15, 0.20, 0.35, 0.95) }
+                    else      { Color::new(0.7, 0.8, 1.0, 0.9) };
+    let staff_col = if is_day { Color::new(0.30, 0.34, 0.45, 0.55) }
+                    else      { Color::new(0.6, 0.6, 0.7, 0.4) };
+
+    draw_rectangle(gc.sx(panel_x), gc.sy(panel_y), gc.sx(panel_w), gc.sy(panel_h), bg);
+    draw_rectangle_lines(gc.sx(panel_x), gc.sy(panel_y), gc.sx(panel_w), gc.sy(panel_h),
+                         gc.s(2.0), border);
+    draw_text_custom(gc, if s.lang_ru { "Нотный стан" } else { "Notation" },
+                     panel_x + 10.0, panel_y + 16.0, 13, label_col, f);
+
+    // Пятилинейный стан
+    let sc = panel_y + panel_h / 2.0 + 8.0;
+    for i in -2..=2 {
+        draw_line(gc.sx(panel_x + 6.0), gc.sy(sc + i as f32 * 12.0),
+                  gc.sx(panel_x + panel_w - 6.0), gc.sy(sc + i as f32 * 12.0),
+                  gc.s(1.0), staff_col);
+    }
+
+    // Ноты достигают центральной линии ровно в момент target_time
+    let half_w  = panel_w / 2.0;
+    let hit_x   = panel_x + half_w;
+    let eff_spd = 250.0 * SPEED_MULTIPLIERS[s.speed_index];
+    let eff_spd_track = half_w * eff_spd / HIGHWAY_H;
+
+    let mut track_notes: Vec<GameNote> = s.notes_compat.iter()
+        .filter(|n| !n.hit && !n.missed)
+        .map(|n| {
+            let tt = (n.target_time - s.song_time) as f32;
+            let mut c = n.clone();
+            c.x = hit_x - (tt * eff_spd_track);
+            c
+        })
+        .collect();
+    track_notes.retain(|n| n.x >= panel_x - 20.0 && n.x <= panel_x + panel_w + 20.0);
+
+    for ch in group_notes_into_chords(&track_notes) {
+        draw_chord_notation(gc, &ch, sc, panel_y + 24.0, panel_h - 32.0, f);
+    }
+
+    // Линия попадания и граница окна засчитывания
+    draw_line(gc.sx(hit_x), gc.sy(panel_y - 4.0), gc.sx(hit_x), gc.sy(panel_y + panel_h + 4.0),
+              gc.s(3.0), Color::new(1.0, 0.3, 0.3, 0.7));
+    let tol_x = hit_x - HIT_TOLERANCE * half_w / HIGHWAY_H;
+    draw_line(gc.sx(tol_x), gc.sy(panel_y - 4.0), gc.sx(tol_x), gc.sy(panel_y + panel_h + 4.0),
+              gc.s(1.5), Color::new(1.0, 0.75, 0.2, 0.55));
 }

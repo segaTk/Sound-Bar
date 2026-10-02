@@ -1,6 +1,6 @@
 [Setup]
 ; === Основные настройки ===
-AppName=SoundNotes
+AppName=Sound Bar
 AppVersion=0.1
 AppVerName=Sound Notes
 AppPublisher=Sergey Naumenko
@@ -9,14 +9,14 @@ AppSupportURL=https://your-website.com/support
 AppUpdatesURL=https://your-website.com/updates
 
 ; === Пути установки ===
-DefaultDirName={pf}\SoundNotes
-DefaultGroupName=SoundNotes
+DefaultDirName={pf}\Sound-Bar
+DefaultGroupName=Sound-Bar
 ; Не создавать подпапку в меню Пуск, если имя группы совпадает с именем приложения
 DisableProgramGroupPage=yes
 
 ; === Выходные данные ===
 OutputDir=installer
-OutputBaseFilename=sound_notes
+OutputBaseFilename=Sound-Bar_setup
 SetupIconFile=note.ico
 
 ; === Сжатие и права ===
@@ -44,7 +44,7 @@ Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{
 
 [Files]
 ; Основной исполняемый файл
-Source: "target\release\sound_notes.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "target\release\SoundBar.exe"; DestDir: "{app}"; Flags: ignoreversion
 
 ; Папка со шрифтами (обязательно для работы игры)
 Source: "fonts\*"; DestDir: "{app}\fonts"; Flags: ignoreversion recursesubdirs createallsubdirs
@@ -53,18 +53,20 @@ Source: "fonts\*"; DestDir: "{app}\fonts"; Flags: ignoreversion recursesubdirs c
 Source: "songs\*"; DestDir: "{app}\songs"; Flags: ignoreversion recursesubdirs createallsubdirs
 
 ; Все остальные файлы из папки dist (картинки, конфиги и т.д.)
-Source: "*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Excludes: "sound_notes.exe,fonts,fonts\*,songs,songs\*,icon.ico"
+Source: "*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; 
+
+;Excludes: "SoundBar.exe,fonts,fonts\*,songs,songs\*,icon.ico"
 
 Source: "note.ico"; DestDir: "{app}"; Flags: ignoreversion
 
 [Icons]
 ; Ярлык в меню Пуск
-Name: "{group}\Sound Notes"; Filename: "{app}\sound_notes.exe"; IconFilename: "{app}\note.ico"
+Name: "{group}\Sound-Bar"; Filename: "{app}\Sound-Bar.exe"; IconFilename: "{app}\note.ico"
 ; Ярлык на рабочем столе
-Name: "{autodesktop}\Sound Notes"; Filename: "{app}\sound_notes.exe"; Tasks: desktopicon; IconFilename: "{app}\note.ico"
+Name: "{autodesktop}\Sound-Bar"; Filename: "{app}\Sound-Bar.exe"; Tasks: desktopicon; IconFilename: "{app}\note.ico"
 ; Ярлык в панели быстрого запуска
-;Name: "{userappdata}\Microsoft\Internet Explorer\Quick Launch\Sound Notes"; Filename: "{app}\sound-bar.exe"; Tasks: quicklaunchicon
+;Name: "{userappdata}\Microsoft\Internet Explorer\Quick Launch\SoundBar"; Filename: "{app}\sound-bar.exe"; Tasks: quicklaunchicon
 
 [Run]
 ; Запуск приложения сразу после установки (с чекбоксом в финальном окне)
-Filename: "{app}\sound_notes.exe";  Description: "{cm:LaunchProgram,Sound Notes}"; Flags: nowait postinstall skipifsilent
+Filename: "{app}\Sound-Bar.exe";  Description: "{cm:LaunchProgram,SoundBar}"; Flags: nowait postinstall skipifsilent

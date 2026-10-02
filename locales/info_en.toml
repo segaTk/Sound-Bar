@@ -1,10 +1,10 @@
 # locales/info_en.toml
 
-title = "About Bomb Notes"
+title = "About Sound Ba"
 
 [[sections]]
 heading = "What is this"
-body    = "Bomb Notes is an interactive guitar trainer.\nNotes fly right-to-left; you play on a real guitar — the microphone detects the pitch and counts hits."
+body    = "Sound Bar is an interactive guitar trainer.\nNotes fly right-to-left; you play on a real guitar — the microphone detects the pitch and counts hits."
 
 [[sections]]
 heading = "Getting started"
@@ -16,7 +16,7 @@ body    = "M — microphone\nT — tuner\nS / W — speed (−/+)\nP — pause\n
 
 [[sections]]
 heading = "Tuner"
-body    = "The tuner detects the pitch of the string you play.\nF — freeze display\nR — record session\n↑↓ — select recording\nEnter — play back"
+body    = "The tuner detects the pitch of the string you play.\nF — freeze display\nR — record session\n↑↓ — select recording\nN-restart\n<- -> time\nEnter — play back"
 
 [[sections]]
 heading = "Lessons"
@@ -28,4 +28,4 @@ body    = "Songs are stored in the songs/ folder as JSON.\nImport from MusicXML 
 
 [[sections]]
 heading = "Author"
-body    = "SjTk\nMIT License"
+body    = "SjTk\n"
